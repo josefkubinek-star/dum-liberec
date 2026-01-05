@@ -76,8 +76,21 @@
   border-radius: 0;
 }
 
-/* Hide right TOC sidebar completely - most important fix */
+/* Hide right TOC sidebar completely - multiple selectors to ensure it's hidden */
 .md-sidebar--secondary {
+  display: none !important;
+}
+
+.md-sidebar[data-md-component="sidebar"][data-md-type="toc"] {
+  display: none !important;
+}
+
+.md-content__inner > .md-sidebar--secondary {
+  display: none !important;
+}
+
+/* Also hide TOC button if it exists */
+.md-header__button[for="__toc"] {
   display: none !important;
 }
 
@@ -90,36 +103,66 @@
   max-width: 100%;
 }
 
-/* Top tabs navigation - Apple-style with better contrast */
+/* Top tabs navigation - clearly visible, high contrast, primary navigation */
 .md-tabs {
-  background-color: rgba(255, 255, 255, 0.98);
+  background-color: #ffffff;
   backdrop-filter: blur(20px);
-  border-bottom: 1px solid #d2d2d7;
-  box-shadow: none;
+  border-bottom: 2px solid #d2d2d7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .md-tabs__list {
   max-width: 100%;
+  white-space: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Allow horizontal scroll if needed */
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #d2d2d7 transparent;
+}
+
+.md-tabs__list::-webkit-scrollbar {
+  height: 4px;
+}
+
+.md-tabs__list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.md-tabs__list::-webkit-scrollbar-thumb {
+  background-color: #d2d2d7;
+  border-radius: 2px;
+}
+
+.md-tabs__item {
+  white-space: nowrap; /* Prevent individual items from wrapping */
+  flex-shrink: 0; /* Don't shrink items */
 }
 
 .md-tabs__link {
-  color: #6e6e73;
-  font-size: 0.9375rem; /* 15px */
-  font-weight: 400;
-  padding: 0.875rem 1.25rem;
+  color: #424245; /* Darker, more visible */
+  font-size: 0.875rem; /* 14px - slightly smaller to fit better */
+  font-weight: 500; /* Medium weight for better visibility */
+  padding: 0.75rem 1rem; /* Slightly reduced padding */
   transition: all 0.2s ease;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
+  white-space: nowrap;
+  display: inline-block;
 }
 
 .md-tabs__link:hover {
   color: #1d1d1f;
   background-color: #f5f5f7;
+  border-bottom-color: #d2d2d7;
 }
 
 .md-tabs__link--active {
-  color: #1d1d1f;
-  font-weight: 500;
-  border-bottom: 2px solid #1d1d1f;
+  color: #1d1d1f; /* Very dark for maximum contrast */
+  font-weight: 600; /* Bold for active state */
+  border-bottom: 3px solid #1d1d1f; /* Thicker, darker underline */
   background-color: transparent;
 }
 
