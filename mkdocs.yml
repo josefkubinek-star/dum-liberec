@@ -4,7 +4,7 @@ site_dir: site
 
 docs_dir: docs
 
-use_directory_urls: false
+use_directory_urls: true
 
 extra_css:
   - stylesheets/extra.css
@@ -28,25 +28,28 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
+    - navigation.indexes
     - search.suggest
   font:
     text: Inter
     code: 'SF Mono'
 
 nav:
-  - Home: index.md
-  - Zadání projektu: 01_Zadani_a_cile/Zadani_projektu.md
-  - Stávající stav: 02_Stavajici_stav/Popis_stavajiciho_stavu.md
+  - Přehled: index.md
+  - Zadání: 01_Zadani_a_cile/Zadani_projektu.md
+  - Stav domu: 02_Stavajici_stav/Popis_stavajiciho_stavu.md
   - Architektura: 03_Architektura/Koncept.md
   - Profese:
     - Kontakty: 04_Profese/Kontakty.md
-    - Zadání pro statika: 04_Profese/Statika/Zadani_pro_statika.md
-  - Decision log: 05_Rozhodnuti_a_zmeny/Decision_log.md
-  - TODO a plán: 06_TODO_a_plan/TODO_aktualni.md
+    - Statika: 04_Profese/Statika/Zadani_pro_statika.md
+  - Rozhodnutí: 05_Rozhodnuti_a_zmeny/Decision_log.md
+  - Plán & rozpočet:
+    - TODO: 06_TODO_a_plan/TODO_aktualni.md
+    - Rozpočet: 08_Rozpocet_a_realizace/Rozpocet_hruby_odhad.md
   - Inspirace: 07_Inspirace/Inspirace.md
-  - Rozpočet a realizace: 08_Rozpocet_a_realizace/Rozpocet_hruby_odhad.md
 
 markdown_extensions:
   - admonition
