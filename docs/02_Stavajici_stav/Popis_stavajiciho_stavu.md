@@ -20,7 +20,8 @@ Přístup k domu je v současnosti řešen pomocí tří kaskád před objektem:
 - **Spodní kaskáda** – prostor před garáží, aktuálně umožňuje parkování jednoho vozidla
 
 Přehled kaskád a přístupu je zdokumentován na obrázku:
-`Pristup_a_kaskady_pred_domem.jpg`
+
+![Přístup a kaskády před domem](Pristup_a_kaskady_pred_domem.jpg)
 
 ---
 

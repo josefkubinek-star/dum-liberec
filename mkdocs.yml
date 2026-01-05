@@ -9,9 +9,29 @@ use_directory_urls: false
 theme:
   name: material
   language: cs
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.expand
     - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 nav:
   - Home: 00_README/README.md
@@ -32,3 +52,5 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true

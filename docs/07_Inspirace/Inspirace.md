@@ -7,7 +7,9 @@ Inspirace nejsou závazné návrhy, ale směrové podněty.
 ---
 
 ## Knihovna / obývací prostor
-- Viz obrázek `Knihovna_inspirace.png`
+
+![Knihovna inspirace](Knihovna_inspirace.png)
+
 - Líbí se:
   - práce s celou stěnou
   - kombinace úložného prostoru a sezení
