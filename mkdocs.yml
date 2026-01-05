@@ -1,0 +1,23 @@
+site_name: Dum Liberec
+theme:
+  name: material
+  language: cs
+  features:
+    - navigation.expand
+    - navigation.indexes
+
+nav:
+  - Home: 00_README/README.md
+  - Zadání projektu: 01_Zadani_a_cile/Zadani_projektu.md
+  - Stávající stav: 02_Stavajici_stav/Popis_stavajiciho_stavu.md
+  - Architektura: 03_Architektura/Koncept.md
+  - Decision log: 05_Rozhodnuti_a_zmeny/Decision_log.md
+  - TODO a plán: 06_TODO_a_plan/TODO_aktualni.md
+  - Inspirace: 07_Inspirace/Inspirace.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
