@@ -1,4 +1,4 @@
-site_name: Dum Liberec
+site_name: Dům Liberec
 site_url: https://josefkubinek-star.github.io/dum-liberec/
 site_dir: site
 
@@ -6,35 +6,37 @@ docs_dir: docs
 
 use_directory_urls: false
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   language: cs
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: grey
+      accent: blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: grey
+      accent: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   features:
     - navigation.expand
-    - navigation.indexes
-    - navigation.tabs
     - navigation.top
     - search.suggest
-    - search.highlight
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Inter
+    code: 'SF Mono'
 
 nav:
-  - Home: 00_README/README.md
+  - Home: index.md
   - Zadání projektu: 01_Zadani_a_cile/Zadani_projektu.md
   - Stávající stav: 02_Stavajici_stav/Popis_stavajiciho_stavu.md
   - Architektura: 03_Architektura/Koncept.md
