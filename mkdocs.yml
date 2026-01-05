@@ -1,4 +1,11 @@
 site_name: Dum Liberec
+site_url: https://josefkubinek-star.github.io/dum-liberec/
+site_dir: site
+
+docs_dir: docs
+
+use_directory_urls: false
+
 theme:
   name: material
   language: cs
@@ -11,9 +18,13 @@ nav:
   - Zadání projektu: 01_Zadani_a_cile/Zadani_projektu.md
   - Stávající stav: 02_Stavajici_stav/Popis_stavajiciho_stavu.md
   - Architektura: 03_Architektura/Koncept.md
+  - Profese:
+    - Kontakty: 04_Profese/Kontakty.md
+    - Zadání pro statika: 04_Profese/Statika/Zadani_pro_statika.md
   - Decision log: 05_Rozhodnuti_a_zmeny/Decision_log.md
   - TODO a plán: 06_TODO_a_plan/TODO_aktualni.md
   - Inspirace: 07_Inspirace/Inspirace.md
+  - Rozpočet a realizace: 08_Rozpocet_a_realizace/Rozpocet_hruby_odhad.md
 
 markdown_extensions:
   - admonition
