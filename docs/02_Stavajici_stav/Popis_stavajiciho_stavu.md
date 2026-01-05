@@ -12,6 +12,14 @@ Celkově působí dům spíše tmavším dojmem, s uzavřenější dispozicí ty
 
 ---
 
+## Dokumenty a přílohy
+
+**[Původní výkresy (PDF)](Puvodni_vykresy.pdf)** – Původní projektová dokumentace domu.
+
+**[Katastrální mapa (PNG)](Katastr.png)** – Katastrální zobrazení pozemku.
+
+---
+
 ## Přístup k domu a prostor před garáží
 Přístup k domu je v současnosti řešen pomocí tří kaskád před objektem:
 
