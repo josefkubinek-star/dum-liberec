@@ -17,25 +17,25 @@ Rodinný dům ze 70. let v Liberci. Dokumentace rekonstrukce krok za krokem.
 
 ## Rychlý přehled
 
-### 📋 [Zadání projektu](01_Zadani_a_cile/Zadani_projektu.md)
+**[Zadání projektu](01_Zadani_a_cile/Zadani_projektu.md)**  
 Základní informace o projektu, cíle a požadavky na rekonstrukci.
 
-### 🏠 [Stav domu](02_Stavajici_stav/Popis_stavajiciho_stavu.md)
+**[Stav domu](02_Stavajici_stav/Popis_stavajiciho_stavu.md)**  
 Popis současného stavu, původní výkresy, fotografie a sondy.
 
-### 🎨 [Architektura](03_Architektura/Koncept.md)
+**[Architektura](03_Architektura/Koncept.md)**  
 Architektonické návrhy a koncept rekonstrukce.
 
-### 👷 [Profese](04_Profese/Kontakty.md)
+**[Profese](04_Profese/Kontakty.md)**  
 Kontakty na odborníky a podklady pro statika.
 
-### ✅ [Rozhodnutí](05_Rozhodnuti_a_zmeny/Decision_log.md)
+**[Rozhodnutí](05_Rozhodnuti_a_zmeny/Decision_log.md)**  
 Zásadní rozhodnutí v průběhu projektu.
 
-### 📝 [Plán & rozpočet](06_TODO_a_plan/TODO_aktualni.md)
+**[Plán & rozpočet](06_TODO_a_plan/TODO_aktualni.md)**  
 Aktuální úkoly, plán dalších kroků a hrubý odhad rozpočtu.
 
-### 💡 [Inspirace](07_Inspirace/Inspirace.md)
+**[Inspirace](07_Inspirace/Inspirace.md)**  
 Nápady a inspirace pro rekonstrukci.
 
 ---
