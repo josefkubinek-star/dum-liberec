@@ -20,22 +20,6 @@ Celkově působí dům spíše tmavším dojmem, s uzavřenější dispozicí ty
 
 ---
 
-## Přístup k domu a prostor před garáží
-Přístup k domu je v současnosti řešen pomocí tří kaskád před objektem:
-
-- **Horní kaskáda** – úzký přístup k původnímu hlavnímu vstupu
-- **Střední kaskáda** – navazuje na původní vstupní trasu
-- **Spodní kaskáda** – prostor před garáží, aktuálně umožňuje parkování jednoho vozidla
-
-Přehled kaskád a přístupu je zdokumentován na obrázku:
-
-![Přístup a kaskády před domem](Pristup_a_kaskady_pred_domem.jpg)
-
-Původní výkresy objektu jsou k dispozici v dokumentu:
-[Puvodni_vykresy.pdf](Puvodni_vykresy.pdf)
-
----
-
 ## 1. podzemní podlaží (suterén)
 
 ### Garáž

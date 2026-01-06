@@ -42,6 +42,18 @@ Neřeší se:
 ---
 
 ## Přístup k domu a prostor před garáží
+
+### Stávající stav
+Přístup k domu je v současnosti řešen pomocí tří kaskád před objektem:
+
+- **Horní kaskáda** – úzký přístup k původnímu hlavnímu vstupu
+- **Střední kaskáda** – navazuje na původní vstupní trasu
+- **Spodní kaskáda** – prostor před garáží, aktuálně umožňuje parkování jednoho vozidla
+
+Přehled kaskád a přístupu je zdokumentován na obrázku:
+![Přístup a kaskády před domem](Pristup_a_kaskady_pred_domem.jpg)
+
+### Plánované změny
 Stávající tři kaskády budou upraveny:
 
 1. **Horní kaskáda**
