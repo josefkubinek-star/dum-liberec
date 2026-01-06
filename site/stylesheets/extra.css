@@ -1,0 +1,377 @@
+/* Apple-style Personal Documentation - Clean, Minimal, Readable */
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+/* Base typography - Apple-style, readable */
+:root {
+  --md-text-font: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+  --md-code-font: "SF Mono", "Monaco", "Menlo", "Consolas", monospace;
+}
+
+/* Main content - Apple-style, readable, clean */
+.md-typeset {
+  font-size: 1.0625rem; /* 17px - slightly larger for better readability */
+  line-height: 1.75; /* Generous line height */
+  color: #1d1d1f; /* Dark text for readability */
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset p {
+  margin-bottom: 1.5rem;
+  max-width: 75ch; /* Optimal reading width */
+}
+
+/* Headings - Apple-style, clean hierarchy */
+.md-typeset h1 {
+  font-size: 2rem; /* 32px */
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: #1d1d1f;
+}
+
+.md-typeset h2 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #1d1d1f;
+}
+
+.md-typeset h3 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1d1d1f;
+}
+
+/* Content area - Apple-style, centered, clean */
+.md-main__inner {
+  background-color: #ffffff;
+}
+
+.md-content {
+  background-color: #ffffff;
+  padding: 4rem 3.5rem;
+  max-width: 1000px; /* Optimal reading width */
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+/* Hide right TOC sidebar completely */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+.md-sidebar[data-md-component="sidebar"][data-md-type="toc"] {
+  display: none !important;
+}
+
+.md-content__inner > .md-sidebar--secondary {
+  display: none !important;
+}
+
+.md-header__button[for="__toc"] {
+  display: none !important;
+}
+
+/* Hide top tabs completely - we use sidebar only */
+.md-tabs {
+  display: none !important;
+}
+
+/* Left sidebar - PRIMARY NAVIGATION - Apple-style, readable */
+.md-sidebar--primary {
+  background-color: #fafafa;
+  border-right: 1px solid #e5e5e7;
+  width: 280px; /* Wider for better readability */
+}
+
+.md-sidebar__scrollwrap {
+  padding: 2.5rem 1.5rem;
+}
+
+.md-nav {
+  font-size: 0.9375rem; /* 15px */
+  font-weight: 400;
+}
+
+.md-nav__title {
+  font-size: 0.75rem; /* 12px */
+  font-weight: 600;
+  color: #6e6e73;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.md-nav__link {
+  color: #424245; /* Darker for better visibility */
+  padding: 0.625rem 1rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-weight: 400;
+  font-size: 0.9375rem; /* 15px */
+  line-height: 1.5;
+  display: block;
+}
+
+.md-nav__link:hover {
+  color: #1d1d1f;
+  background-color: #f5f5f7;
+}
+
+.md-nav__link--active {
+  color: #1d1d1f; /* Very dark for maximum contrast */
+  font-weight: 600; /* Bold for active state */
+  background-color: #e8e8ed; /* Light gray background for clear visibility */
+}
+
+.md-nav__item {
+  margin-bottom: 0.25rem;
+}
+
+/* Nested navigation items */
+.md-nav__item--nested > .md-nav__link {
+  font-weight: 500;
+}
+
+.md-nav__item--nested .md-nav__link {
+  padding-left: 1.5rem;
+  font-size: 0.875rem; /* 14px */
+}
+
+/* Header - Apple-style minimal */
+.md-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e7;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  height: 60px;
+}
+
+.md-header__title {
+  display: none;
+}
+
+.md-header__button.md-logo {
+  margin-right: 0;
+  padding: 0.5rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.4rem;
+  width: auto;
+}
+
+/* Search - subtle */
+.md-search__form {
+  background-color: #f5f5f7;
+  border-radius: 8px;
+  border: 1px solid #e5e5e7;
+}
+
+.md-search__form:hover {
+  background-color: #ebebed;
+}
+
+/* Links - Apple-style */
+.md-typeset a {
+  color: #0071e3; /* Apple blue */
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+  font-weight: 400;
+}
+
+.md-typeset a:hover {
+  color: #0071e3;
+  border-bottom-color: #0071e3;
+}
+
+/* PDF links - make them stand out */
+.md-typeset a[href$=".pdf"] {
+  color: #0071e3;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background-color: #f5f5f7;
+  display: inline-block;
+  margin: 0.25rem 0;
+}
+
+.md-typeset a[href$=".pdf"]:hover {
+  background-color: #e8e8ed;
+  border-bottom: none;
+}
+
+/* Images - clean styling */
+.md-typeset img {
+  border-radius: 8px;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Lists - better spacing */
+.md-typeset ul,
+.md-typeset ol {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.md-typeset li {
+  margin-bottom: 0.75rem;
+  line-height: 1.75;
+}
+
+/* Code - subtle */
+.md-typeset code {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.md-typeset pre {
+  background-color: #fafafa;
+  border: 1px solid #e5e5e7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* Horizontal rules */
+.md-typeset hr {
+  border: none;
+  border-top: 1px solid #e5e5e7;
+  margin: 3rem 0;
+}
+
+/* Tables - minimal */
+.md-typeset table:not([class]) {
+  border: 1px solid #e5e5e7;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #fafafa;
+  color: #1d1d1f;
+  font-weight: 500;
+  border-bottom: 1px solid #e5e5e7;
+  padding: 1rem;
+}
+
+.md-typeset table:not([class]) td {
+  border-bottom: 1px solid #f5f5f7;
+  padding: 1rem;
+}
+
+/* Admonitions - subtle */
+.md-typeset .admonition {
+  border-left: 3px solid #e5e5e7;
+  background-color: #fafafa;
+  border-radius: 0;
+  margin: 2rem 0;
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+  border-left: 3px solid #e5e5e7;
+  color: #6e6e73;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: normal;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+/* Footer - minimal */
+.md-footer {
+  background-color: #fafafa;
+  border-top: 1px solid #e5e5e7;
+  color: #6e6e73;
+}
+
+.md-footer__inner {
+  padding: 2rem 0;
+}
+
+/* Remove shadows */
+.md-header,
+.md-sidebar,
+.md-content,
+.md-typeset .admonition,
+.md-typeset pre,
+.md-typeset table {
+  box-shadow: none;
+}
+
+/* Buttons */
+.md-button {
+  border-radius: 8px;
+  border: 1px solid #e5e5e7;
+  background-color: #ffffff;
+  color: #1d1d1f;
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+
+.md-button:hover {
+  background-color: #f5f5f7;
+  border-color: #d2d2d7;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 76.25em) {
+  .md-content {
+    padding: 3rem 2.5rem;
+    max-width: 100%;
+  }
+  
+  .md-typeset {
+    font-size: 1rem; /* 16px */
+  }
+  
+  .md-sidebar--primary {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 59.9375em) {
+  .md-content {
+    padding: 2.5rem 2rem;
+  }
+  
+  .md-typeset {
+    font-size: 0.9375rem; /* 15px */
+    line-height: 1.7;
+  }
+  
+  .md-sidebar--primary {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-sidebar--primary {
+    display: none !important;
+  }
+  
+  .md-content {
+    padding: 2rem 1.5rem;
+  }
+}

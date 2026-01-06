@@ -31,6 +31,9 @@ Přehled kaskád a přístupu je zdokumentován na obrázku:
 
 ![Přístup a kaskády před domem](Pristup_a_kaskady_pred_domem.jpg)
 
+Původní výkresy objektu jsou k dispozici v dokumentu:
+[Puvodni_vykresy.pdf](Puvodni_vykresy.pdf)
+
 ---
 
 ## 1. podzemní podlaží (suterén)

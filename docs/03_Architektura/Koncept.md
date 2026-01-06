@@ -1,8 +1,8 @@
 # Koncept rekonstrukce – cílový stav (1. fáze)
 
-## Dokumenty
+## Návrhy architekta
 
-**[Architektonický návrh – Prosinec 2025 (PDF)](Architekt_Prosinec_2025.pdf)** – Kompletní architektonická dokumentace pro 1. fázi rekonstrukce.
+- [Architekt_Prosinec_2025.pdf](Architekt_Prosinec_2025.pdf) - **aktuální návrh**
 
 ---
 
