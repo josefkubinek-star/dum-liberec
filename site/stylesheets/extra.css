@@ -199,7 +199,7 @@
   border-bottom-color: #0071e3;
 }
 
-/* PDF links - make them stand out */
+/* PDF links - make them stand out, responsive */
 .md-typeset a[href$=".pdf"] {
   color: #0071e3;
   font-weight: 500;
@@ -208,6 +208,8 @@
   background-color: #f5f5f7;
   display: inline-block;
   margin: 0.25rem 0;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 .md-typeset a[href$=".pdf"]:hover {
@@ -215,23 +217,28 @@
   border-bottom: none;
 }
 
-/* Images - clean styling */
+/* Images - clean styling, responsive */
 .md-typeset img {
   border-radius: 8px;
   margin: 2rem 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* Lists - better spacing */
+/* Lists - better spacing, responsive */
 .md-typeset ul,
 .md-typeset ol {
   margin-left: 2rem;
   margin-bottom: 2rem;
+  padding-right: 1rem;
 }
 
 .md-typeset li {
   margin-bottom: 0.75rem;
   line-height: 1.75;
+  word-wrap: break-word;
 }
 
 /* Code - subtle */
@@ -259,12 +266,14 @@
   margin: 3rem 0;
 }
 
-/* Tables - minimal */
+/* Tables - minimal, responsive */
 .md-typeset table:not([class]) {
   border: 1px solid #e5e5e7;
   border-radius: 8px;
   overflow: hidden;
   margin: 2rem 0;
+  width: 100%;
+  display: table;
 }
 
 .md-typeset table:not([class]) th {
@@ -278,6 +287,13 @@
 .md-typeset table:not([class]) td {
   border-bottom: 1px solid #f5f5f7;
   padding: 1rem;
+}
+
+/* Table wrapper for horizontal scroll on mobile */
+.md-typeset .table-wrapper {
+  overflow-x: auto;
+  margin: 2rem 0;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Admonitions - subtle */
@@ -335,7 +351,9 @@
   border-color: #d2d2d7;
 }
 
-/* Mobile responsiveness */
+/* Mobile responsiveness - Enhanced breakpoints */
+
+/* Large tablets and small desktops (1024px and below) */
 @media screen and (max-width: 76.25em) {
   .md-content {
     padding: 3rem 2.5rem;
@@ -346,14 +364,43 @@
     font-size: 1rem; /* 16px */
   }
   
+  .md-typeset h1 {
+    font-size: 1.75rem; /* 28px */
+  }
+  
+  .md-typeset h2 {
+    font-size: 1.375rem; /* 22px */
+    margin-top: 2.5rem;
+  }
+  
+  .md-typeset h3 {
+    font-size: 1.125rem; /* 18px */
+    margin-top: 2rem;
+  }
+  
   .md-sidebar--primary {
     width: 260px;
   }
+  
+  .md-sidebar__scrollwrap {
+    padding: 2rem 1.25rem;
+  }
+  
+  .md-header {
+    height: 56px;
+  }
+  
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    height: 2.2rem;
+  }
 }
 
+/* Tablets (768px and below) */
 @media screen and (max-width: 59.9375em) {
   .md-content {
     padding: 2.5rem 2rem;
+    max-width: 100%;
   }
   
   .md-typeset {
@@ -361,11 +408,76 @@
     line-height: 1.7;
   }
   
+  .md-typeset h1 {
+    font-size: 1.625rem; /* 26px */
+    margin-bottom: 1.5rem;
+  }
+  
+  .md-typeset h2 {
+    font-size: 1.25rem; /* 20px */
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .md-typeset h3 {
+    font-size: 1.0625rem; /* 17px */
+    margin-top: 1.75rem;
+  }
+  
+  .md-typeset p {
+    max-width: 100%;
+    margin-bottom: 1.25rem;
+  }
+  
   .md-sidebar--primary {
     width: 240px;
   }
+  
+  .md-sidebar__scrollwrap {
+    padding: 1.75rem 1rem;
+  }
+  
+  .md-nav {
+    font-size: 0.875rem; /* 14px */
+  }
+  
+  .md-nav__link {
+    padding: 0.5rem 0.875rem;
+    font-size: 0.875rem;
+  }
+  
+  .md-typeset ul,
+  .md-typeset ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .md-typeset img {
+    margin: 1.5rem 0;
+  }
+  
+  .md-typeset table:not([class]) {
+    font-size: 0.875rem;
+  }
+  
+  .md-typeset table:not([class]) th,
+  .md-typeset table:not([class]) td {
+    padding: 0.75rem;
+  }
+  
+  .md-typeset pre {
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+  
+  .md-typeset code {
+    font-size: 0.85em;
+  }
 }
 
+/* Mobile phones (480px and below) */
 @media screen and (max-width: 44.9375em) {
   .md-sidebar--primary {
     display: none !important;
@@ -373,5 +485,155 @@
   
   .md-content {
     padding: 2rem 1.5rem;
+    max-width: 100%;
+  }
+  
+  .md-typeset {
+    font-size: 0.9375rem; /* 15px */
+    line-height: 1.65;
+  }
+  
+  .md-typeset h1 {
+    font-size: 1.5rem; /* 24px */
+    margin-bottom: 1.25rem;
+    line-height: 1.3;
+  }
+  
+  .md-typeset h2 {
+    font-size: 1.1875rem; /* 19px */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.35;
+  }
+  
+  .md-typeset h3 {
+    font-size: 1.0625rem; /* 17px */
+    margin-top: 1.5rem;
+    margin-bottom: 0.875rem;
+  }
+  
+  .md-typeset p {
+    max-width: 100%;
+    margin-bottom: 1.125rem;
+    font-size: 0.9375rem;
+  }
+  
+  .md-typeset ul,
+  .md-typeset ol {
+    margin-left: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-right: 0.5rem;
+  }
+  
+  .md-typeset li {
+    margin-bottom: 0.625rem;
+    line-height: 1.7;
+  }
+  
+  .md-typeset img {
+    margin: 1.25rem 0;
+    border-radius: 6px;
+    width: 100%;
+  }
+  
+  .md-typeset table:not([class]) {
+    font-size: 0.8125rem;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  
+  .md-typeset table:not([class]) th,
+  .md-typeset table:not([class]) td {
+    padding: 0.625rem 0.75rem;
+    min-width: 100px;
+  }
+  
+  .md-typeset pre {
+    padding: 1rem;
+    margin: 1.25rem 0;
+    font-size: 0.8125rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .md-typeset code {
+    font-size: 0.8125em;
+    padding: 0.15rem 0.4rem;
+  }
+  
+  .md-typeset blockquote {
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    font-size: 0.9375rem;
+  }
+  
+  .md-typeset .admonition {
+    margin: 1.5rem 0;
+    padding: 1rem;
+  }
+  
+  .md-typeset a[href$=".pdf"] {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .md-header {
+    height: 52px;
+    padding: 0 0.5rem;
+  }
+  
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    height: 2rem;
+  }
+  
+  .md-search__form {
+    margin: 0 0.5rem;
+  }
+  
+  .md-footer__inner {
+    padding: 1.5rem 1rem;
+  }
+  
+  .md-button {
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* Very small mobile phones (360px and below) */
+@media screen and (max-width: 22.5em) {
+  .md-content {
+    padding: 1.5rem 1rem;
+  }
+  
+  .md-typeset {
+    font-size: 0.875rem; /* 14px */
+  }
+  
+  .md-typeset h1 {
+    font-size: 1.375rem; /* 22px */
+  }
+  
+  .md-typeset h2 {
+    font-size: 1.125rem; /* 18px */
+  }
+  
+  .md-typeset h3 {
+    font-size: 1rem; /* 16px */
+  }
+  
+  .md-header {
+    height: 48px;
+    padding: 0 0.25rem;
+  }
+  
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    height: 1.75rem;
   }
 }
