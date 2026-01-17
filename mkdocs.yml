@@ -10,7 +10,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
-  - javascripts/header-cta.js
+  - javascripts/drawer-pdf.js
 
 theme:
   name: material
