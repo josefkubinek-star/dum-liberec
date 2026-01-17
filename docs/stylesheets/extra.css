@@ -677,3 +677,52 @@
     width: auto; /* Reset fixed width for mobile drawer */
   }
 }
+
+/* Force visible hamburger (drawer toggle) on mobile */
+@media screen and (max-width: 76.2344em) {
+  .md-header__button.md-icon[for="__drawer"] {
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  .md-header__button.md-icon {
+    z-index: 1000;
+  }
+}
+
+/* PDF download button in header */
+.dl-pdf{
+  display:inline-flex;
+  align-items:center;
+  gap:.45rem;
+  padding:.35rem .65rem;
+  border-radius:999px;
+  font-weight:600;
+  line-height:1;
+  border:1px solid rgba(0,0,0,.18);
+  background:rgba(0,0,0,.06);
+}
+.dl-pdf:hover{ background:rgba(0,0,0,.10); }
+.dl-pdf__icon{ font-size:1.05rem; }
+
+/* Keep text visible also on mobile (UX) */
+@media screen and (max-width: 76.2344em) {
+  .dl-pdf__text{ display:inline; }
+}
+
+/* Darker sidebar for better contrast */
+.md-sidebar--primary {
+  background: #111;
+}
+.md-sidebar--primary .md-nav__title,
+.md-sidebar--primary .md-nav__link {
+  color: rgba(255,255,255,.88);
+}
+.md-sidebar--primary .md-nav__link:hover {
+  color: #fff;
+}
+.md-sidebar--primary .md-nav__link--active {
+  background: rgba(255,255,255,.10);
+  color: #fff;
+  border-radius: .5rem;
+}
