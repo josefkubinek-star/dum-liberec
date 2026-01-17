@@ -957,29 +957,39 @@
     top: 0;
     right: 0;
     height: 100dvh;
-    width: min(82vw, 22rem);
+    width: min(88vw, 20rem);          /* smaller, no sideways scroll */
+    max-width: 20rem;
     background: #eaf2ff;
     transform: translateX(105%);
     transition: transform .18s ease;
     z-index: 9999;
     padding: 1rem;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;               /* critical */
     box-shadow: -12px 0 30px rgba(0,0,0,.12);
   }
 
-  /* Open state */
-  .custom-menu-open .custom-menu-overlay{
-    opacity: 1;
-    pointer-events: auto;
-  }
   .custom-menu-open .custom-menu-panel{
     transform: translateX(0);
   }
 
-  /* Compact nav list spacing */
+  .custom-menu-overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.35);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .18s ease;
+    z-index: 9998;
+  }
+  .custom-menu-open .custom-menu-overlay{
+    opacity: 1;
+    pointer-events: auto;
+  }
+
   .custom-menu-list {
-    padding: 0 !important;
     margin: 0 !important;
+    padding: 0 !important;
   }
 
   .custom-menu-list .md-nav__item {
@@ -987,17 +997,15 @@
     padding: 0 !important;
   }
 
-  .custom-menu-list .md-nav__item + .md-nav__item {
-    margin-top: .15rem !important;
-  }
-
-  /* Make cloned nav readable */
-  .custom-menu-list .md-nav__link{
-    color: #0b1b3a !important;
+  .custom-menu-list .md-nav__link {
+    display: block;
+    padding: .55rem .5rem !important;  /* normal spacing */
+    margin: 0 !important;
+    line-height: 1.35 !important;      /* normal readable line-height */
     font-size: 1.05rem;
-    padding: .45rem .4rem !important;
-    line-height: 1.25 !important;
     border-radius: 10px;
+    white-space: normal !important;    /* avoid overflow */
+    word-break: break-word;            /* avoid overflow */
   }
 
   .custom-menu-list .md-nav__link--active {
@@ -1005,17 +1013,32 @@
     font-weight: 600;
   }
 
+  /* Reduce huge top padding caused by nested headers/sections */
+  .custom-menu-list .md-nav__title,
+  .custom-menu-list .md-nav__source,
+  .custom-menu-list .md-nav__header {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
   /* Bottom PDF action */
   .custom-menu-pdf{
-    margin-top: .75rem;
+    margin-top: .9rem;
     width: 100%;
-    padding: .55rem .75rem;
+    padding: .6rem .8rem;
     border-radius: 12px;
     border: 1px solid rgba(0,0,0,.18);
     background: rgba(0,0,0,.05);
     font-weight: 700;
-    font-size: .95rem;
     cursor: pointer;
   }
   .custom-menu-pdf:hover{ background: rgba(0,0,0,.10); }
+}
+
+/* Prevent horizontal scroll globally */
+html, body {
+  overflow-x: hidden !important;
+}
+* {
+  box-sizing: border-box;
 }
