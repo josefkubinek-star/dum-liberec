@@ -678,46 +678,40 @@
   }
 }
 
-/* --- Header CTA: "Stáhnout" --- */
-.dl-cta{
-  display:inline-flex;
-  align-items:center;
-  gap:.5rem;
-  padding:.38rem .72rem;
-  border-radius:999px;
-  font-weight:600;
-  line-height:1;
-  border:1px solid rgba(0,0,0,.18);
-  background:rgba(0,0,0,.05);
-  cursor:pointer;
-}
-.dl-cta:hover{ background:rgba(0,0,0,.10); }
-.dl-cta__icon{ display:inline-flex; }
-
-/* --- Globální: světle modrá navigace + kontrastní text --- */
-:root{
-  --nav-bg: #eaf2ff;          /* světle modrá */
-  --nav-text: #0b1b3a;        /* tmavý text */
-  --nav-text-muted: rgba(11,27,58,.75);
-  --nav-active-bg: rgba(11,27,58,.10);
+/* Safe sidebar styling – colors only */
+:root {
+  --nav-bg: #eaf2ff;
+  --nav-text: #0b1b3a;
+  --nav-active-bg: rgba(11, 27, 58, 0.10);
 }
 
-/* Sidebar (levé menu) */
-.md-sidebar--primary{
+.md-sidebar--primary {
   background: var(--nav-bg);
 }
+
+/* Ensure navigation is always visible */
+.md-sidebar--primary .md-nav,
+.md-sidebar--primary .md-nav__list {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
 .md-sidebar--primary .md-nav__title,
-.md-sidebar--primary .md-nav__link{
-  color: var(--nav-text);
+.md-sidebar--primary .md-nav__link {
+  color: var(--nav-text) !important;
 }
-.md-sidebar--primary .md-nav__link:hover{
-  color: var(--nav-text);
-  text-decoration: none;
-}
-.md-sidebar--primary .md-nav__link--active{
+
+.md-sidebar--primary .md-nav__link--active {
   background: var(--nav-active-bg);
-  color: var(--nav-text);
-  border-radius: .6rem;
+  border-radius: 0.6rem;
+}
+
+/* Hide empty placeholder blocks only if truly empty */
+.md-sidebar--primary .md-sidebar__top:empty {
+  display: none !important;
 }
 
 /* Header – aby hamburger byl vidět */
@@ -750,7 +744,18 @@
   filter: none !important;
 }
 
-/* remove empty/placeholder block in sidebar */
-.md-sidebar--primary .md-sidebar__top{ display:none; }
-/* pokud to je nav title header area */
-.md-sidebar--primary .md-nav__title[for="__drawer"]{ background: transparent; }
+/* Download PDF CTA – text only, subtle */
+.dl-cta {
+  font-size: 0.75rem;        /* smaller font */
+  font-weight: 500;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.15);
+  background: transparent;
+  color: #0b1b3a;
+  cursor: pointer;
+}
+
+.dl-cta:hover {
+  background: rgba(11, 27, 58, 0.08);
+}
