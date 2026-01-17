@@ -10,6 +10,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
+  - javascripts/drawer-toggle-fix.js
   - javascripts/drawer-pdf.js
 
 theme:
