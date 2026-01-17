@@ -812,17 +812,17 @@
     z-index: 3500 !important;
     display: block !important;
   }
+  /* Allow sidebar content to be scrollable, not hidden */
+  .md-sidebar__scrollwrap {
+    overflow: auto !important;
+    height: 100% !important;
+  }
   /* Prevent anything from hiding the nav list */
   .md-sidebar--primary .md-nav,
   .md-sidebar--primary .md-nav__list {
     visibility: visible !important;
     opacity: 1 !important;
   }
-}
-
-/* If any previous CSS accidentally disabled transforms/visibility, neutralize it */
-.md-sidebar--primary {
-  transform: none;
 }
 
 /* Hide theme (light/dark) toggle button completely */
@@ -854,4 +854,38 @@
 
 .dl-cta:hover {
   background: rgba(11, 27, 58, 0.08);
+}
+
+/* Drawer PDF action at bottom */
+.drawer-pdf {
+  margin-top: 1rem;
+  padding-top: .75rem;
+  border-top: 1px solid rgba(0,0,0,.10);
+}
+
+.drawer-pdf .md-nav__link {
+  font-weight: 600;
+}
+
+/* Put hamburger icon on the far RIGHT (mobile) */
+@media (max-width: 76.2344em) {
+  .md-header__inner {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  /* Move drawer toggle button to the far right */
+  .md-header__button.md-icon[for="__drawer"] {
+    order: 9999;
+    margin-left: auto;
+  }
+
+  /* Keep search icon/input before it */
+  .md-header__button.md-icon[for="__search"] {
+    order: 9000;
+  }
+  .md-search {
+    order: 8000;
+  }
 }
