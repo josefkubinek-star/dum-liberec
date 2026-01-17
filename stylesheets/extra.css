@@ -987,7 +987,10 @@
     pointer-events: auto;
   }
 
-  .custom-menu-list {
+  /* compact list */
+  .custom-menu-list,
+  .custom-menu-list ul,
+  .custom-menu-list li {
     margin: 0 !important;
     padding: 0 !important;
   }
@@ -997,28 +1000,33 @@
     padding: 0 !important;
   }
 
+  /* links spacing */
   .custom-menu-list .md-nav__link {
     display: block;
-    padding: .55rem .5rem !important;  /* normal spacing */
+    padding: .42rem .45rem !important;
     margin: 0 !important;
-    line-height: 1.35 !important;      /* normal readable line-height */
-    font-size: 1.05rem;
+    line-height: 1.25 !important;
+    font-size: 1.02rem !important;
     border-radius: 10px;
     white-space: normal !important;    /* avoid overflow */
     word-break: break-word;            /* avoid overflow */
   }
 
+  /* remove "group spacing" that Material applies */
+  .custom-menu-list .md-nav__item--section {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* slightly reduce active background padding feel */
   .custom-menu-list .md-nav__link--active {
-    background: rgba(0,0,0,.08) !important;
+    background: rgba(0,0,0,.07) !important;
     font-weight: 600;
   }
 
-  /* Reduce huge top padding caused by nested headers/sections */
-  .custom-menu-list .md-nav__title,
-  .custom-menu-list .md-nav__source,
-  .custom-menu-list .md-nav__header {
-    margin: 0 !important;
-    padding: 0 !important;
+  /* remove any accidental large top padding inside panel */
+  .custom-menu-panel {
+    padding-top: .75rem !important;
   }
 
   /* Bottom PDF action */
