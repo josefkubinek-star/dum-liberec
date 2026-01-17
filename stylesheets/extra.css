@@ -929,6 +929,11 @@
 
 /* Custom mobile menu styles */
 @media (max-width: 76.2344em) {
+
+  /* Prevent horizontal scroll */
+  html, body { overflow-x: hidden !important; }
+  * { box-sizing: border-box; }
+
   .custom-hamburger{
     margin-left: auto;
     font-size: 1.25rem;
@@ -957,13 +962,13 @@
     top: 0;
     right: 0;
     height: 100dvh;
-    width: min(88vw, 20rem);          /* smaller, no sideways scroll */
+    width: min(86vw, 20rem);
     max-width: 20rem;
     background: #eaf2ff;
     transform: translateX(105%);
     transition: transform .18s ease;
     z-index: 9999;
-    padding: 1rem;
+    padding: .9rem;
     overflow-y: auto;
     overflow-x: hidden;               /* critical */
     box-shadow: -12px 0 30px rgba(0,0,0,.12);
@@ -987,46 +992,29 @@
     pointer-events: auto;
   }
 
-  /* compact list */
-  .custom-menu-list,
-  .custom-menu-list ul,
-  .custom-menu-list li {
-    margin: 0 !important;
-    padding: 0 !important;
+  /* Clean list spacing (NO huge gaps) */
+  .custom-menu-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-
-  .custom-menu-list .md-nav__item {
-    margin: 0 !important;
-    padding: 0 !important;
+  .custom-menu-li{
+    margin: 0;
+    padding: 0;
   }
-
-  /* links spacing */
-  .custom-menu-list .md-nav__link {
+  .custom-menu-a{
     display: block;
-    padding: .42rem .45rem !important;
-    margin: 0 !important;
-    line-height: 1.25 !important;
-    font-size: 1.02rem !important;
+    padding: .48rem .45rem;
+    font-size: 1.05rem;
+    line-height: 1.3;
+    color: #0b1b3a;
+    text-decoration: none;
     border-radius: 10px;
-    white-space: normal !important;    /* avoid overflow */
-    word-break: break-word;            /* avoid overflow */
+    white-space: normal;
+    word-break: break-word;
   }
-
-  /* remove "group spacing" that Material applies */
-  .custom-menu-list .md-nav__item--section {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  /* slightly reduce active background padding feel */
-  .custom-menu-list .md-nav__link--active {
-    background: rgba(0,0,0,.07) !important;
-    font-weight: 600;
-  }
-
-  /* remove any accidental large top padding inside panel */
-  .custom-menu-panel {
-    padding-top: .75rem !important;
+  .custom-menu-a:active{
+    background: rgba(0,0,0,.08);
   }
 
   /* Bottom PDF action */
@@ -1041,12 +1029,4 @@
     cursor: pointer;
   }
   .custom-menu-pdf:hover{ background: rgba(0,0,0,.10); }
-}
-
-/* Prevent horizontal scroll globally */
-html, body {
-  overflow-x: hidden !important;
-}
-* {
-  box-sizing: border-box;
 }
