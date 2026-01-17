@@ -740,6 +740,37 @@
   .dl-cta{ font-size: .76rem; }
 }
 
+/* Push CTA to the far right within header options */
+.md-header__options {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.dl-cta {
+  margin-left: auto;
+}
+
+/* Remove sidebar header/source block background (blue rectangle) */
+.md-nav__source {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* If the source block still occupies space, collapse it */
+@media screen and (min-width: 76.2344em) {
+  .md-nav__source {
+    height: 0 !important;
+    overflow: hidden !important;
+  }
+}
+
+/* Also remove any brand/hero placeholder inside sidebar */
+.md-sidebar--primary .md-nav__title {
+  background: transparent !important;
+}
+
 /* Header – aby hamburger byl vidět */
 .md-header{
   background: var(--nav-bg);
@@ -800,6 +831,13 @@
 .md-header__button.md-icon[title*="theme"],
 .md-header__button.md-icon[aria-label*="theme"] {
   display: none !important;
+}
+
+/* Hide hamburger on desktop (keep on mobile) */
+@media screen and (min-width: 76.2344em) {
+  .md-header__button.md-icon[for="__drawer"] {
+    display: none !important;
+  }
 }
 
 /* Download PDF CTA – text only, subtle */
