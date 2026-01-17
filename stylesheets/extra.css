@@ -670,3 +670,10 @@
     height: 1.75rem;
   }
 }
+
+/* Mobile navigation fix */
+@media screen and (max-width: 76.1875em) {
+  .md-sidebar--primary {
+    width: auto; /* Reset fixed width for mobile drawer */
+  }
+}
