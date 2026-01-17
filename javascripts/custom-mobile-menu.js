@@ -40,13 +40,26 @@
       if (navList) {
         const cloned = navList.cloneNode(true);
         cloned.classList.add("custom-menu-list");
-        panel.appendChild(cloned);
 
-        // Remove duplicate first item ("Přehled")
-        const firstItem = cloned.querySelector(".md-nav__item");
-        if (firstItem && firstItem.textContent.trim() === "Přehled") {
-          firstItem.remove();
-        }
+        // De-duplicate nav links by href (prevents repeated items like "Zadání")
+        const seen = new Set();
+        cloned.querySelectorAll("a.md-nav__link").forEach((a) => {
+          const href = a.getAttribute("href") || "";
+          if (!href) return;
+          if (seen.has(href)) {
+            const li = a.closest("li");
+            if (li) li.remove();
+          } else {
+            seen.add(href);
+          }
+        });
+
+        // Remove empty list items after deletions
+        cloned.querySelectorAll("li").forEach((li) => {
+          if (!li.textContent.trim()) li.remove();
+        });
+
+        panel.appendChild(cloned);
       }
 
       // Add PDF action at bottom
