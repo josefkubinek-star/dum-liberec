@@ -41,6 +41,29 @@
         const cloned = navList.cloneNode(true);
         cloned.classList.add("custom-menu-list");
 
+        // 1) Remove section/title blocks that create duplicate "Přehled"
+        cloned.querySelectorAll(".md-nav__title, .md-nav__header, .md-nav__source").forEach((el) => {
+          // these are not navigation links, just titles/containers
+          el.remove();
+        });
+
+        // 2) Remove any top "overview" item that is not a real link
+        // If there is a duplicated first "Přehled" that is a button/label-like item, remove it:
+        const items = Array.from(cloned.querySelectorAll("li.md-nav__item"));
+        if (items.length >= 2) {
+          const first = items[0];
+          const second = items[1];
+
+          const firstLink = first.querySelector("a.md-nav__link");
+          const secondLink = second.querySelector("a.md-nav__link");
+
+          // If first has no href (or empty href) but second is a real link, remove first
+          const href1 = firstLink?.getAttribute("href") || "";
+          const href2 = secondLink?.getAttribute("href") || "";
+
+          if ((!href1 || href1 === "#") && href2) first.remove();
+        }
+
         // De-duplicate nav links by href (prevents repeated items like "Zadání")
         const seen = new Set();
         cloned.querySelectorAll("a.md-nav__link").forEach((a) => {
