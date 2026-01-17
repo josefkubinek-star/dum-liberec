@@ -976,22 +976,45 @@
     transform: translateX(0);
   }
 
+  /* Compact nav list spacing */
+  .custom-menu-list {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .custom-menu-list .md-nav__item {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .custom-menu-list .md-nav__item + .md-nav__item {
+    margin-top: .15rem !important;
+  }
+
   /* Make cloned nav readable */
   .custom-menu-list .md-nav__link{
     color: #0b1b3a !important;
     font-size: 1.05rem;
-    padding: .6rem .4rem;
+    padding: .45rem .4rem !important;
+    line-height: 1.25 !important;
+    border-radius: 10px;
+  }
+
+  .custom-menu-list .md-nav__link--active {
+    background: rgba(0,0,0,.08) !important;
+    font-weight: 600;
   }
 
   /* Bottom PDF action */
   .custom-menu-pdf{
-    margin-top: 1rem;
+    margin-top: .75rem;
     width: 100%;
-    padding: .65rem .8rem;
+    padding: .55rem .75rem;
     border-radius: 12px;
     border: 1px solid rgba(0,0,0,.18);
     background: rgba(0,0,0,.05);
     font-weight: 700;
+    font-size: .95rem;
     cursor: pointer;
   }
   .custom-menu-pdf:hover{ background: rgba(0,0,0,.10); }

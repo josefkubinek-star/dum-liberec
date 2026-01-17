@@ -41,6 +41,12 @@
         const cloned = navList.cloneNode(true);
         cloned.classList.add("custom-menu-list");
         panel.appendChild(cloned);
+
+        // Remove duplicate first item ("Přehled")
+        const firstItem = cloned.querySelector(".md-nav__item");
+        if (firstItem && firstItem.textContent.trim() === "Přehled") {
+          firstItem.remove();
+        }
       }
 
       // Add PDF action at bottom
