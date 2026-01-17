@@ -36,6 +36,8 @@ Fokus:
 - [ ] Rozebrání a odnos těžkého nábytku (sedačky, obývací stěny)
 - [ ] Odpojení a odnos staré elektroniky (TV apod.)
 - [ ] Uvolnění prostoru pro sondy (odsun nábytku, zakrytí podlah)
+- [ ] Demontáž kuchyně
+- [ ] Demontáž garnýží (zatím nedokončeno)
 
 ---
 
@@ -47,10 +49,19 @@ Fokus:
 ---
 
 ### FÁZE 2 – Sondy a technické ověření
-- [ ] Odkrytí míst pro sondy (stěny, podlahy)
-- [ ] Pomoc při sondách (sekání, bourání)
-- [ ] Fotodokumentace sond (stručně popsat kde a co)
-- [ ] Provizorní zabezpečení odkrytých míst
+
+#### Sondy – provádíme sami (HOTOVO)
+- [x] Odkrytí schodů ve stávajícím obýváku  
+      (zjištěno: 3 vrstvy – 2× beton, 1× stěrka)
+- [x] Sonda zezadu krbu  
+      (zjištěno: přístavba pro krb, nejde o nosnou zeď)
+- [x] Odkrytí trámu  
+      (zjištěno: dřevěný trám)
+
+#### Úkoly pro statika
+- [ ] Ověření, zda je stěna mezi obývacím pokojem a předsíní nosná
+- [ ] Ověření stěny u krbu (potvrzení závěru sondy)
+- [ ] Posouzení možnosti odstranění schodu v obývacím pokoji
 
 ---
 

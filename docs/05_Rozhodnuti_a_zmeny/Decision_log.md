@@ -36,3 +36,16 @@
   - otevření dispozic
   - práce se světlem
   - preference jednoduchých a nepřeplácaných řešení
+
+---
+
+### Sonda u krbu – potvrzení, že nejde o nosnou zeď
+- Datum: 2026-01-17
+- Rozhodnutí:
+  Zeď u krbu (sonda ze zadní strany) není nosná a může být odstraněna.
+- Důvod:
+  - provedena sonda ze zadní strany krbu
+  - konstrukce je přístavba pro krb, nikoliv nosná stěna
+- Dopad:
+  - umožňuje otevření dispozice 1. NP
+  - nutné ještě formálně potvrdit statikem
