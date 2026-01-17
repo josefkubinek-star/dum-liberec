@@ -22,15 +22,9 @@ theme:
     - scheme: default
       primary: grey
       accent: blue
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
     - scheme: slate
       primary: grey
       accent: blue
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   features:
     - navigation.sections
     - navigation.expand

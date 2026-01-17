@@ -770,6 +770,38 @@
   filter: none !important;
 }
 
+/* --- Mobile drawer must be visible when opened --- */
+@media (max-width: 76.2344em) {
+  /* Ensure drawer/sidebar is on top */
+  .md-sidebar--primary {
+    z-index: 4000 !important;
+  }
+  /* Ensure overlay appears and is clickable */
+  .md-overlay {
+    z-index: 3500 !important;
+    display: block !important;
+  }
+  /* Prevent anything from hiding the nav list */
+  .md-sidebar--primary .md-nav,
+  .md-sidebar--primary .md-nav__list {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
+
+/* If any previous CSS accidentally disabled transforms/visibility, neutralize it */
+.md-sidebar--primary {
+  transform: none;
+}
+
+/* Hide theme (light/dark) toggle button completely */
+.md-header__button.md-icon[title*="Toggle"],
+.md-header__button.md-icon[aria-label*="Toggle"],
+.md-header__button.md-icon[title*="theme"],
+.md-header__button.md-icon[aria-label*="theme"] {
+  display: none !important;
+}
+
 /* Download PDF CTA – text only, subtle */
 .dl-cta {
   font-size: 0.75rem;        /* smaller font */
