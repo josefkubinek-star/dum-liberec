@@ -9,6 +9,9 @@ use_directory_urls: true
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/header-cta.js
+
 theme:
   name: material
   custom_dir: docs/overrides
