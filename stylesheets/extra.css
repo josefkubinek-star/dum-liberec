@@ -689,19 +689,9 @@
   background: var(--nav-bg);
 }
 
-/* Ensure navigation is always visible */
-.md-sidebar--primary .md-nav,
-.md-sidebar--primary .md-nav__list {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  height: auto !important;
-  overflow: visible !important;
-}
-
 .md-sidebar--primary .md-nav__title,
 .md-sidebar--primary .md-nav__link {
-  color: var(--nav-text) !important;
+  color: var(--nav-text);
 }
 
 .md-sidebar--primary .md-nav__link--active {
@@ -709,9 +699,45 @@
   border-radius: 0.6rem;
 }
 
-/* Hide empty placeholder blocks only if truly empty */
-.md-sidebar--primary .md-sidebar__top:empty {
-  display: none !important;
+/* Remove sidebar source/brand block if it creates a black rectangle */
+.md-nav__source{
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.md-nav__source::before,
+.md-nav__source::after{
+  display:none !important;
+}
+
+/* If a specific element is empty and still occupies space */
+.md-sidebar__top:empty{
+  display:none !important;
+}
+
+/* Header CTA button */
+.dl-cta{
+  margin-left: .5rem;
+  align-self: center;
+  font-size: .78rem;
+  font-weight: 600;
+  padding: .34rem .60rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,.18);
+  background: rgba(255,255,255,.0);
+  color: rgba(0,0,0,.78);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.dl-cta:hover{
+  background: rgba(0,0,0,.06);
+}
+.dl-cta:active{
+  background: rgba(0,0,0,.10);
+}
+
+/* Keep it visible on mobile too */
+@media (max-width: 768px){
+  .dl-cta{ font-size: .76rem; }
 }
 
 /* Header – aby hamburger byl vidět */
