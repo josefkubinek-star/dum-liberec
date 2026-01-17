@@ -10,7 +10,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
-  - javascripts/custom-mobile-menu.js
+  - javascripts/custom-mobile-menu-v2.js
   - javascripts/drawer-toggle-fix.js
   - javascripts/drawer-pdf.js
 
