@@ -49,3 +49,16 @@
 - Dopad:
   - umožňuje otevření dispozice 1. NP
   - nutné ještě formálně potvrdit statikem
+
+---
+
+### Zachování betonového schodu v obývacím pokoji/ nové kuchyni
+- Datum: 2026-01-17
+- Rozhodnutí: Schod v obývacím pokoji/ nové kuchyni bude zachován v původní podobě.
+- Důvod:
+  - provedena sonda do konstrukce schodu
+  - schod je celý vylitý betonem
+  - odstranění by bylo technicky i finančně náročné
+- Dopad:
+  - zachování stávající výškové úrovně v obývacím pokoji
+  - úspora nákladů v rané fázi projektu
