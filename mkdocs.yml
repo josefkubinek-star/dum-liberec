@@ -12,7 +12,7 @@ extra_css:
 extra_javascript:
   - javascripts/custom-mobile-menu-v2.js
   - javascripts/drawer-toggle-fix.js
-  - javascripts/drawer-pdf.js
+  - javascripts/pdf-header-icon.js
 
 theme:
   name: material
@@ -21,12 +21,18 @@ theme:
   logo: assets/logo.svg
   favicon: assets/favicon.svg
   palette:
-    - scheme: default
-      primary: grey
-      accent: blue
     - scheme: slate
       primary: grey
       accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Přepnout na světlý režim
+    - scheme: default
+      primary: grey
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Přepnout na tmavý režim
   features:
     - navigation.sections
     - navigation.expand
@@ -51,7 +57,6 @@ nav:
   - Inspirace: 07_Inspirace/Inspirace.md
   - Digitální archiv:
       - Přehled a stav: 09_Digitalizovany_archiv/00_PLAN_A_STATUS.md
-      - Zpracované záznamy: 09_Digitalizovany_archiv/BATCH_1.md
 
 markdown_extensions:
   - admonition
