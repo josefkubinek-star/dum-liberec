@@ -1,1032 +1,256 @@
-/* Apple-style Personal Documentation - Clean, Minimal, Readable */
+/* Dům Liberec – projektový web */
+/* Cíl: čistý, teplý, čitelný. Nechceme dashboard ani AI look. */
 
-/* Import Inter font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
-/* Base typography - Apple-style, readable */
+/* ─── Barvy ─── */
 :root {
-  --md-text-font: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
-  --md-code-font: "SF Mono", "Monaco", "Menlo", "Consolas", monospace;
+  --color-bg:        #F8F7F4;   /* teplá bílá, ne sterilní */
+  --color-surface:   #FFFFFF;
+  --color-text:      #1A1A1A;
+  --color-muted:     #6B6B6B;
+  --color-border:    #E0DDD8;
+  --color-accent:    #2B4C7E;   /* tmavě modrá — projekční, ne "AI blue" */
+  --color-accent-bg: #EEF2F8;
+  --color-done:      #2E7D55;
+  --color-pending:   #C75000;
 }
 
-/* Main content - Apple-style, readable, clean */
+/* ─── Základní typografie ─── */
+body {
+  background: var(--color-bg) !important;
+}
+
 .md-typeset {
-  font-size: 1.0625rem; /* 17px - slightly larger for better readability */
-  line-height: 1.75; /* Generous line height */
-  color: #1d1d1f; /* Dark text for readability */
-  font-weight: 400;
-  letter-spacing: -0.01em;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text);
 }
 
-.md-typeset p {
-  margin-bottom: 1.5rem;
-  max-width: 75ch; /* Optimal reading width */
-}
+.md-typeset p { margin-bottom: 1.25rem; }
 
-/* Headings - Apple-style, clean hierarchy */
 .md-typeset h1 {
-  font-size: 2rem; /* 32px */
-  font-weight: 500;
+  font-size: 1.75rem;
+  font-weight: 600;
   letter-spacing: -0.02em;
-  line-height: 1.25;
   margin-top: 0;
-  margin-bottom: 2rem;
-  color: #1d1d1f;
+  margin-bottom: 1.5rem;
+  color: var(--color-text);
 }
 
 .md-typeset h2 {
-  font-size: 1.5rem; /* 24px */
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 600;
   letter-spacing: -0.01em;
-  line-height: 1.4;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  color: #1d1d1f;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
 }
 
 .md-typeset h3 {
-  font-size: 1.25rem; /* 20px */
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  line-height: 1.4;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  color: #1d1d1f;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
 }
 
-/* Content area - Apple-style, centered, clean */
-.md-main__inner {
-  background-color: #ffffff;
-}
+/* ─── Layout ─── */
+.md-main__inner { background: var(--color-bg); }
 
 .md-content {
-  background-color: #ffffff;
-  padding: 4rem 3.5rem;
-  max-width: 1000px; /* Optimal reading width */
+  background: var(--color-surface);
+  padding: 2.5rem 2.5rem 4rem;
+  max-width: 740px;
   margin: 0 auto;
-  border-radius: 0;
+  border-left: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+  min-height: 100vh;
 }
 
-/* Hide right TOC sidebar completely */
-.md-sidebar--secondary {
-  display: none !important;
-}
+/* Skrýt pravý TOC */
+.md-sidebar--secondary { display: none !important; }
 
-.md-sidebar[data-md-component="sidebar"][data-md-type="toc"] {
-  display: none !important;
-}
-
-.md-content__inner > .md-sidebar--secondary {
-  display: none !important;
-}
-
-.md-header__button[for="__toc"] {
-  display: none !important;
-}
-
-/* Hide top tabs completely - we use sidebar only */
-.md-tabs {
-  display: none !important;
-}
-
-/* Left sidebar - PRIMARY NAVIGATION - Apple-style, readable */
-.md-sidebar--primary {
-  background-color: #fafafa;
-  border-right: 1px solid #e5e5e7;
-  width: 280px; /* Wider for better readability */
-}
-
-.md-sidebar__scrollwrap {
-  padding: 2.5rem 1.5rem;
-}
-
-.md-nav {
-  font-size: 0.9375rem; /* 15px */
-  font-weight: 400;
-}
-
-.md-nav__title {
-  font-size: 0.75rem; /* 12px */
-  font-weight: 600;
-  color: #6e6e73;
-  padding: 0.75rem 1rem;
-  margin-bottom: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.md-nav__link {
-  color: #424245; /* Darker for better visibility */
-  padding: 0.625rem 1rem;
-  border-radius: 8px;
-  transition: all 0.2s ease;
-  font-weight: 400;
-  font-size: 0.9375rem; /* 15px */
-  line-height: 1.5;
-  display: block;
-}
-
-.md-nav__link:hover {
-  color: #1d1d1f;
-  background-color: #f5f5f7;
-}
-
-.md-nav__link--active {
-  color: #1d1d1f; /* Very dark for maximum contrast */
-  font-weight: 600; /* Bold for active state */
-  background-color: #e8e8ed; /* Light gray background for clear visibility */
-}
-
-.md-nav__item {
-  margin-bottom: 0.25rem;
-}
-
-/* Nested navigation items */
-.md-nav__item--nested > .md-nav__link {
-  font-weight: 500;
-}
-
-.md-nav__item--nested .md-nav__link {
-  padding-left: 1.5rem;
-  font-size: 0.875rem; /* 14px */
-}
-
-/* Header - Apple-style minimal */
+/* ─── Header ─── */
 .md-header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e5e5e7;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-  height: 60px;
+  background: var(--color-surface) !important;
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: none !important;
+  color: var(--color-text) !important;
 }
 
 .md-header__title {
-  display: none;
+  color: var(--color-text) !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
 }
 
-/* Ensure hamburger menu button is visible on mobile */
-.md-header__button[for="__drawer"] {
-  display: block !important;
+.md-header__button { color: var(--color-text) !important; }
+
+/* ─── Levý sidebar (navigace) ─── */
+.md-sidebar--primary {
+  background: var(--color-bg) !important;
+  border-right: 1px solid var(--color-border) !important;
 }
 
-.md-header__button.md-logo {
-  margin-right: 0;
-  padding: 0.5rem;
+.md-nav__title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted) !important;
+  padding: 1rem 0.75rem 0.25rem;
 }
 
-.md-header__button.md-logo img,
-.md-header__button.md-logo svg {
-  height: 2.4rem;
-  width: auto;
+.md-nav__item .md-nav__link {
+  font-size: 0.9rem;
+  color: var(--color-muted) !important;
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  margin: 1px 0.4rem;
+  transition: background 0.1s, color 0.1s;
 }
 
-/* Search - subtle */
-.md-search__form {
-  background-color: #f5f5f7;
-  border-radius: 8px;
-  border: 1px solid #e5e5e7;
+.md-nav__item .md-nav__link:hover {
+  background: var(--color-accent-bg) !important;
+  color: var(--color-accent) !important;
 }
 
-.md-search__form:hover {
-  background-color: #ebebed;
+.md-nav__item--active > .md-nav__link,
+.md-nav__link--active {
+  background: var(--color-accent-bg) !important;
+  color: var(--color-accent) !important;
+  font-weight: 600 !important;
 }
 
-/* Links - Apple-style */
-.md-typeset a {
-  color: #0071e3; /* Apple blue */
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s ease;
-  font-weight: 400;
-}
-
-.md-typeset a:hover {
-  color: #0071e3;
-  border-bottom-color: #0071e3;
-}
-
-/* PDF links - make them stand out, responsive */
-.md-typeset a[href$=".pdf"] {
-  color: #0071e3;
-  font-weight: 500;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  background-color: #f5f5f7;
-  display: inline-block;
-  margin: 0.25rem 0;
-  word-break: break-word;
-  max-width: 100%;
-}
-
-.md-typeset a[href$=".pdf"]:hover {
-  background-color: #e8e8ed;
-  border-bottom: none;
-}
-
-/* Images - clean styling, responsive */
-.md-typeset img {
-  border-radius: 8px;
-  margin: 2rem 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Lists - better spacing, responsive */
-.md-typeset ul,
-.md-typeset ol {
-  margin-left: 2rem;
-  margin-bottom: 2rem;
-  padding-right: 1rem;
-}
-
-.md-typeset li {
-  margin-bottom: 0.75rem;
-  line-height: 1.75;
-  word-wrap: break-word;
-}
-
-/* Code - subtle */
-.md-typeset code {
-  background-color: #f5f5f7;
-  color: #1d1d1f;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.9em;
-  font-weight: 400;
-}
-
-.md-typeset pre {
-  background-color: #fafafa;
-  border: 1px solid #e5e5e7;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 2rem 0;
-}
-
-/* Horizontal rules */
-.md-typeset hr {
-  border: none;
-  border-top: 1px solid #e5e5e7;
-  margin: 3rem 0;
-}
-
-/* Tables - minimal, responsive */
-.md-typeset table:not([class]) {
-  border: 1px solid #e5e5e7;
+/* ─── Tabulky ─── */
+.md-typeset table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   overflow: hidden;
+}
+
+.md-typeset table th {
+  background: var(--color-bg);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.md-typeset table td {
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.md-typeset table tr:last-child td { border-bottom: none; }
+.md-typeset table tr:hover td { background: var(--color-bg); }
+
+/* ─── Checkboxy v TODO ─── */
+.md-typeset .task-list-item {
+  padding-left: 1.75rem;
+  position: relative;
+  margin: 0.2rem 0;
+}
+
+.md-typeset .task-list-item input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--color-done);
+}
+
+/* Hotové položky — přeškrtnout */
+.md-typeset .task-list-item:has(input:checked) {
+  color: var(--color-muted);
+  text-decoration: line-through;
+  text-decoration-color: var(--color-border);
+}
+
+/* ─── Horizontální oddělovač ─── */
+.md-typeset hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
   margin: 2rem 0;
-  width: 100%;
-  display: table;
 }
 
-.md-typeset table:not([class]) th {
-  background-color: #fafafa;
-  color: #1d1d1f;
-  font-weight: 500;
-  border-bottom: 1px solid #e5e5e7;
-  padding: 1rem;
+/* ─── Linky ─── */
+.md-typeset a {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
 }
 
-.md-typeset table:not([class]) td {
-  border-bottom: 1px solid #f5f5f7;
-  padding: 1rem;
+.md-typeset a:hover { border-bottom-color: var(--color-accent); }
+
+/* ─── Kód inline ─── */
+.md-typeset code {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.87em;
+  color: var(--color-text);
 }
 
-/* Table wrapper for horizontal scroll on mobile */
-.md-typeset .table-wrapper {
-  overflow-x: auto;
-  margin: 2rem 0;
-  -webkit-overflow-scrolling: touch;
-}
-
-/* Admonitions - subtle */
-.md-typeset .admonition {
-  border-left: 3px solid #e5e5e7;
-  background-color: #fafafa;
-  border-radius: 0;
-  margin: 2rem 0;
-}
-
-/* Blockquotes */
+/* ─── Citace / admonition ─── */
 .md-typeset blockquote {
-  border-left: 3px solid #e5e5e7;
-  color: #6e6e73;
-  padding-left: 1.5rem;
-  margin: 2rem 0;
-  font-style: normal;
-  font-size: 1.0625rem;
-  line-height: 1.75;
+  border-left: 3px solid var(--color-border);
+  padding-left: 1rem;
+  color: var(--color-muted);
+  margin: 1.5rem 0;
 }
 
-/* Footer - minimal */
-.md-footer {
-  background-color: #fafafa;
-  border-top: 1px solid #e5e5e7;
-  color: #6e6e73;
-}
-
-.md-footer__inner {
-  padding: 2rem 0;
-}
-
-/* Remove shadows */
-.md-header,
-.md-sidebar,
-.md-content,
-.md-typeset .admonition,
-.md-typeset pre,
-.md-typeset table {
-  box-shadow: none;
-}
-
-/* Buttons */
-.md-button {
-  border-radius: 8px;
-  border: 1px solid #e5e5e7;
-  background-color: #ffffff;
-  color: #1d1d1f;
-  font-weight: 400;
-  transition: all 0.2s ease;
-}
-
-.md-button:hover {
-  background-color: #f5f5f7;
-  border-color: #d2d2d7;
-}
-
-/* Mobile responsiveness - Enhanced breakpoints */
-
-/* Large tablets and small desktops (1024px and below) */
-@media screen and (max-width: 76.25em) {
-  .md-content {
-    padding: 3rem 2.5rem;
-    max-width: 100%;
-  }
-  
-  .md-typeset {
-    font-size: 1rem; /* 16px */
-  }
-  
-  .md-typeset h1 {
-    font-size: 1.75rem; /* 28px */
-  }
-  
-  .md-typeset h2 {
-    font-size: 1.375rem; /* 22px */
-    margin-top: 2.5rem;
-  }
-  
-  .md-typeset h3 {
-    font-size: 1.125rem; /* 18px */
-    margin-top: 2rem;
-  }
-  
-  .md-sidebar--primary {
-    width: 260px;
-  }
-  
-  .md-sidebar__scrollwrap {
-    padding: 2rem 1.25rem;
-  }
-  
-  .md-header {
-    height: 56px;
-  }
-  
-  .md-header__button.md-logo img,
-  .md-header__button.md-logo svg {
-    height: 2.2rem;
-  }
-}
-
-/* Tablets (768px and below) */
-@media screen and (max-width: 59.9375em) {
-  .md-content {
-    padding: 2.5rem 2rem;
-    max-width: 100%;
-  }
-  
-  .md-typeset {
-    font-size: 0.9375rem; /* 15px */
-    line-height: 1.7;
-  }
-  
-  .md-typeset h1 {
-    font-size: 1.625rem; /* 26px */
-    margin-bottom: 1.5rem;
-  }
-  
-  .md-typeset h2 {
-    font-size: 1.25rem; /* 20px */
-    margin-top: 2rem;
-    margin-bottom: 1.25rem;
-  }
-  
-  .md-typeset h3 {
-    font-size: 1.0625rem; /* 17px */
-    margin-top: 1.75rem;
-  }
-  
-  .md-typeset p {
-    max-width: 100%;
-    margin-bottom: 1.25rem;
-  }
-  
-  .md-sidebar--primary {
-    width: 240px;
-  }
-  
-  .md-sidebar__scrollwrap {
-    padding: 1.75rem 1rem;
-  }
-  
-  .md-nav {
-    font-size: 0.875rem; /* 14px */
-  }
-  
-  .md-nav__link {
-    padding: 0.5rem 0.875rem;
-    font-size: 0.875rem;
-  }
-  
-  .md-typeset ul,
-  .md-typeset ol {
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .md-typeset img {
-    margin: 1.5rem 0;
-  }
-  
-  .md-typeset table:not([class]) {
-    font-size: 0.875rem;
-  }
-  
-  .md-typeset table:not([class]) th,
-  .md-typeset table:not([class]) td {
-    padding: 0.75rem;
-  }
-  
-  .md-typeset pre {
-    padding: 1.25rem;
-    margin: 1.5rem 0;
-    font-size: 0.875rem;
-    overflow-x: auto;
-  }
-  
-  .md-typeset code {
-    font-size: 0.85em;
-  }
-}
-
-/* Mobile phones (480px and below) */
-@media screen and (max-width: 44.9375em) {
-  .md-sidebar--primary {
-    display: none !important;
-  }
-  
-  /* Show hamburger menu on mobile */
-  .md-header__button[for="__drawer"] {
-    display: block !important;
-    margin-right: 0.5rem;
-  }
-  
-  /* Show page title on mobile */
-  .md-header__title {
-    display: block !important;
-    flex: 1;
-    margin: 0 1rem;
-  }
-  
-  /* Ensure drawer overlay works */
-  .md-overlay {
-    background-color: rgba(0, 0, 0, 0.54);
-  }
-  
-  /* Drawer (mobile menu) styling */
-  .md-nav--primary {
-    background-color: #ffffff;
-  }
-  
-  .md-nav--primary .md-nav__title {
-    background-color: #fafafa;
-    border-bottom: 1px solid #e5e5e7;
-  }
-  
-  .md-content {
-    padding: 2rem 1.5rem;
-    max-width: 100%;
-  }
-  
-  .md-typeset {
-    font-size: 0.9375rem; /* 15px */
-    line-height: 1.65;
-  }
-  
-  .md-typeset h1 {
-    font-size: 1.5rem; /* 24px */
-    margin-bottom: 1.25rem;
-    line-height: 1.3;
-  }
-  
-  .md-typeset h2 {
-    font-size: 1.1875rem; /* 19px */
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    line-height: 1.35;
-  }
-  
-  .md-typeset h3 {
-    font-size: 1.0625rem; /* 17px */
-    margin-top: 1.5rem;
-    margin-bottom: 0.875rem;
-  }
-  
-  .md-typeset p {
-    max-width: 100%;
-    margin-bottom: 1.125rem;
-    font-size: 0.9375rem;
-  }
-  
-  .md-typeset ul,
-  .md-typeset ol {
-    margin-left: 1.25rem;
-    margin-bottom: 1.25rem;
-    padding-right: 0.5rem;
-  }
-  
-  .md-typeset li {
-    margin-bottom: 0.625rem;
-    line-height: 1.7;
-  }
-  
-  .md-typeset img {
-    margin: 1.25rem 0;
-    border-radius: 6px;
-    width: 100%;
-  }
-  
-  .md-typeset table:not([class]) {
-    font-size: 0.8125rem;
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    white-space: nowrap;
-  }
-  
-  .md-typeset table:not([class]) th,
-  .md-typeset table:not([class]) td {
-    padding: 0.625rem 0.75rem;
-    min-width: 100px;
-  }
-  
-  .md-typeset pre {
-    padding: 1rem;
-    margin: 1.25rem 0;
-    font-size: 0.8125rem;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  .md-typeset code {
-    font-size: 0.8125em;
-    padding: 0.15rem 0.4rem;
-  }
-  
-  .md-typeset blockquote {
-    padding-left: 1rem;
-    margin: 1.5rem 0;
-    font-size: 0.9375rem;
-  }
-  
-  .md-typeset .admonition {
-    margin: 1.5rem 0;
-    padding: 1rem;
-  }
-  
-  .md-typeset a[href$=".pdf"] {
-    display: block;
-    padding: 0.5rem 0.75rem;
-    margin: 0.5rem 0;
-    text-align: center;
-  }
-  
-  .md-header {
-    height: 52px;
-    padding: 0 0.5rem;
-  }
-  
-  .md-header__button.md-logo img,
-  .md-header__button.md-logo svg {
-    height: 2rem;
-  }
-  
-  .md-search__form {
-    margin: 0 0.5rem;
-  }
-  
-  .md-footer__inner {
-    padding: 1.5rem 1rem;
-  }
-  
-  .md-button {
-    padding: 0.625rem 1rem;
-    font-size: 0.875rem;
-  }
-}
-
-/* Very small mobile phones (360px and below) */
-@media screen and (max-width: 22.5em) {
-  .md-content {
-    padding: 1.5rem 1rem;
-  }
-  
-  .md-typeset {
-    font-size: 0.875rem; /* 14px */
-  }
-  
-  .md-typeset h1 {
-    font-size: 1.375rem; /* 22px */
-  }
-  
-  .md-typeset h2 {
-    font-size: 1.125rem; /* 18px */
-  }
-  
-  .md-typeset h3 {
-    font-size: 1rem; /* 16px */
-  }
-  
-  .md-header {
-    height: 48px;
-    padding: 0 0.25rem;
-  }
-  
-  .md-header__button.md-logo img,
-  .md-header__button.md-logo svg {
-    height: 1.75rem;
-  }
-}
-
-/* Mobile navigation fix */
+/* ─── MOBILE ─── */
 @media screen and (max-width: 76.1875em) {
-  .md-sidebar--primary {
-    width: auto; /* Reset fixed width for mobile drawer */
-  }
-}
 
-/* Safe sidebar styling – colors only */
-:root {
-  --nav-bg: #eaf2ff;
-  --nav-text: #0b1b3a;
-  --nav-active-bg: rgba(11, 27, 58, 0.10);
-}
-
-.md-sidebar--primary {
-  background: var(--nav-bg);
-}
-
-.md-sidebar--primary .md-nav__title,
-.md-sidebar--primary .md-nav__link {
-  color: var(--nav-text);
-}
-
-.md-sidebar--primary .md-nav__link--active {
-  background: var(--nav-active-bg);
-  border-radius: 0.6rem;
-}
-
-/* Remove sidebar source/brand block if it creates a black rectangle */
-.md-nav__source{
-  background: transparent !important;
-  box-shadow: none !important;
-}
-.md-nav__source::before,
-.md-nav__source::after{
-  display:none !important;
-}
-
-/* If a specific element is empty and still occupies space */
-.md-sidebar__top:empty{
-  display:none !important;
-}
-
-/* Header CTA button */
-.dl-cta{
-  margin-left: .5rem;
-  align-self: center;
-  font-size: .78rem;
-  font-weight: 600;
-  padding: .34rem .60rem;
-  border-radius: 999px;
-  border: 1px solid rgba(0,0,0,.18);
-  background: rgba(255,255,255,.0);
-  color: rgba(0,0,0,.78);
-  cursor: pointer;
-  white-space: nowrap;
-}
-.dl-cta:hover{
-  background: rgba(0,0,0,.06);
-}
-.dl-cta:active{
-  background: rgba(0,0,0,.10);
-}
-
-/* Keep it visible on mobile too */
-@media (max-width: 768px){
-  .dl-cta{ font-size: .76rem; }
-}
-
-/* Push CTA to the far right within header options */
-.md-header__options {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-}
-.dl-cta {
-  margin-left: auto;
-}
-
-/* Remove sidebar header/source block background (blue rectangle) */
-.md-nav__source {
-  background: transparent !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-/* If the source block still occupies space, collapse it */
-@media screen and (min-width: 76.2344em) {
-  .md-nav__source {
-    height: 0 !important;
-    overflow: hidden !important;
-  }
-}
-
-/* Also remove any brand/hero placeholder inside sidebar */
-.md-sidebar--primary .md-nav__title {
-  background: transparent !important;
-}
-
-/* Header – aby hamburger byl vidět */
-.md-header{
-  background: var(--nav-bg);
-}
-.md-header__title,
-.md-header__button,
-.md-header__button.md-icon{
-  color: var(--nav-text);
-}
-
-/* FORCE hamburger visible on mobile (drawer toggle) */
-@media screen and (max-width: 76.2344em) {
-  .md-header__button.md-icon[for="__drawer"]{
-    display:inline-flex !important;
-    visibility:visible !important;
-    opacity:1 !important;
-  }
-  /* zvětšit klikací plochu a zajistit nad obsahem */
-  .md-header__button.md-icon{
-    z-index: 3000;
-  }
-}
-
-/* Pokud jsou ikony "neviditelné" kvůli opacity/filter někde jinde, zruš */
-.md-header__button svg,
-.md-header__button .md-icon{
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-/* --- Mobile drawer must be visible when opened --- */
-@media (max-width: 76.2344em) {
-  /* Ensure drawer/sidebar is on top */
-  .md-sidebar--primary {
-    z-index: 4000 !important;
-  }
-  /* Ensure overlay appears and is clickable */
-  .md-overlay {
-    z-index: 3500 !important;
-    display: block !important;
-  }
-  /* Allow sidebar content to be scrollable, not hidden */
-  .md-sidebar__scrollwrap {
-    overflow: auto !important;
-    height: 100% !important;
-  }
-  /* Prevent anything from hiding the nav list */
-  .md-sidebar--primary .md-nav,
-  .md-sidebar--primary .md-nav__list {
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-}
-
-/* Hide theme (light/dark) toggle button completely */
-.md-header__button.md-icon[title*="Toggle"],
-.md-header__button.md-icon[aria-label*="Toggle"],
-.md-header__button.md-icon[title*="theme"],
-.md-header__button.md-icon[aria-label*="theme"] {
-  display: none !important;
-}
-
-/* Hide hamburger on desktop (keep on mobile) */
-@media screen and (min-width: 76.2344em) {
-  .md-header__button.md-icon[for="__drawer"] {
-    display: none !important;
-  }
-}
-
-/* Download PDF CTA – text only, subtle */
-.dl-cta {
-  font-size: 0.75rem;        /* smaller font */
-  font-weight: 500;
-  padding: 0.25rem 0.55rem;
-  border-radius: 999px;
-  border: 1px solid rgba(0,0,0,0.15);
-  background: transparent;
-  color: #0b1b3a;
-  cursor: pointer;
-}
-
-.dl-cta:hover {
-  background: rgba(11, 27, 58, 0.08);
-}
-
-/* Drawer PDF action at bottom */
-.drawer-pdf {
-  margin-top: 1rem;
-  padding-top: .75rem;
-  border-top: 1px solid rgba(0,0,0,.10);
-}
-
-.drawer-pdf .md-nav__link {
-  font-weight: 600;
-}
-
-/* Put hamburger icon on the far RIGHT (mobile) */
-@media (max-width: 76.2344em) {
-  .md-header__inner {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
+  /* Obsah bez postranního paddingu — full width */
+  .md-content {
+    padding: 1.25rem 1.1rem 3rem;
+    border: none;
   }
 
-  /* Move drawer toggle button to the far right */
-  .md-header__button.md-icon[for="__drawer"] {
-    order: 9999;
-    margin-left: auto;
-  }
+  /* Header — kompaktnější */
+  .md-header { padding: 0 0.5rem; }
 
-  /* Keep search icon/input before it */
-  .md-header__button.md-icon[for="__search"] {
-    order: 9000;
-  }
-  .md-search {
-    order: 8000;
-  }
-}
-
-/* HARD FIX: force drawer open/close based on __drawer toggle */
-@media (max-width: 76.2344em) {
-  /* default closed: off-canvas */
-  .md-sidebar--primary {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    height: 100dvh !important;
-    width: min(80vw, 22rem) !important;
-    transform: translateX(-105%) !important;
-    transition: transform .2s ease !important;
-    z-index: 4000 !important;
-    overflow: auto !important;
-  }
-
-  /* overlay default hidden */
-  .md-overlay {
-    display: none !important;
-    z-index: 3500 !important;
-  }
-
-  /* when drawer checked: slide in + show overlay */
-  .md-toggle#__drawer:checked ~ .md-container .md-sidebar--primary {
-    transform: translateX(0) !important;
-  }
-  .md-toggle#__drawer:checked ~ .md-container .md-overlay {
-    display: block !important;
-  }
-}
-
-/* Disable Material hamburger/drawer on mobile to avoid conflicts */
-@media (max-width: 76.2344em) {
-  .md-header__button.md-icon[for="__drawer"] { display: none !important; }
-  .md-overlay { display: none !important; }
-  .md-toggle#__drawer { display: none !important; }
-}
-
-/* Custom mobile menu styles */
-@media (max-width: 76.2344em) {
-
-  /* Prevent horizontal scroll */
-  html, body { overflow-x: hidden !important; }
-  * { box-sizing: border-box; }
-
-  .custom-hamburger{
-    margin-left: auto;
-    font-size: 1.25rem;
-    line-height: 1;
-    padding: .45rem .6rem;
-    border-radius: 10px;
-    border: 1px solid rgba(0,0,0,.15);
-    background: rgba(255,255,255,.55);
-    cursor: pointer;
-    z-index: 10000;
-  }
-  .custom-hamburger:active{ background: rgba(0,0,0,.06); }
-
-  .custom-menu-overlay{
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,.35);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity .18s ease;
-    z-index: 9998;
-  }
-
-  .custom-menu-panel{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100dvh;
-    width: min(86vw, 20rem);
-    max-width: 20rem;
-    background: #eaf2ff;
-    transform: translateX(105%);
-    transition: transform .18s ease;
-    z-index: 9999;
-    padding: .9rem;
-    overflow-y: auto;
-    overflow-x: hidden;               /* critical */
-    box-shadow: -12px 0 30px rgba(0,0,0,.12);
-  }
-
-  .custom-menu-open .custom-menu-panel{
-    transform: translateX(0);
-  }
-
-  .custom-menu-overlay{
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,.35);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity .18s ease;
-    z-index: 9998;
-  }
-  .custom-menu-open .custom-menu-overlay{
-    opacity: 1;
-    pointer-events: auto;
-  }
-
-  /* Clean list spacing (NO huge gaps) */
-  .custom-menu-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .custom-menu-li{
-    margin: 0;
-    padding: 0;
-  }
-  .custom-menu-a{
+  /* Tabulka — scrollovatelná na mobilu */
+  .md-typeset table {
     display: block;
-    padding: .48rem .45rem;
-    font-size: 1.05rem;
-    line-height: 1.3;
-    color: #0b1b3a;
-    text-decoration: none;
-    border-radius: 10px;
-    white-space: normal;
-    word-break: break-word;
-  }
-  .custom-menu-a:active{
-    background: rgba(0,0,0,.08);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.85rem;
   }
 
-  /* Bottom PDF action */
-  .custom-menu-pdf{
-    margin-top: .9rem;
-    width: 100%;
-    padding: .6rem .8rem;
-    border-radius: 12px;
-    border: 1px solid rgba(0,0,0,.18);
-    background: rgba(0,0,0,.05);
-    font-weight: 700;
-    cursor: pointer;
+  /* H1 menší na mobilu */
+  .md-typeset h1 { font-size: 1.4rem; }
+  .md-typeset h2 { font-size: 1.1rem; }
+
+  /* Navigace — původní Material drawer (MkDocs se o něj stará) */
+  .md-sidebar--primary {
+    background: var(--color-surface) !important;
   }
-  .custom-menu-pdf:hover{ background: rgba(0,0,0,.10); }
+}
+
+/* ─── Tisk / čistý výstup ─── */
+@media print {
+  .md-sidebar--primary,
+  .md-header,
+  .md-footer { display: none !important; }
+  .md-content { padding: 0; border: none; }
 }

@@ -1,48 +1,58 @@
 # Dům Liberec
 
-Rodinný dům ze 70. let v Liberci. Dokumentace rekonstrukce krok za krokem.
+Rekonstrukce rodinného domu ze 70. let v Liberci — Vratislavicích nad Nisou.
+Projektový deník, rozhodnutí a dokumentace.
 
 ---
 
-## Co teď řešíme
+## Aktuální fáze
 
-**Aktuální fáze:** Architektonický návrh + příprava pro statika
+**Architektonický návrh finalizován** (12. 6. 2026)
 
-- Vyklízení objektu
-- Provádění sond
-- Upřesňování architektonického konceptu (1. fáze)
-- Příprava podkladů pro statické posouzení
+Vyklízení objektu hotovo. Čekáme na finální PD od architekta pro předání statikovi.
 
----
-
-## Rychlý přehled
-
-**[Zadání projektu](01_Zadani_a_cile/Zadani_projektu.md)**  
-Základní informace o projektu, cíle a požadavky na rekonstrukci.
-
-**[Stav domu](02_Stavajici_stav/Popis_stavajiciho_stavu.md)**  
-Popis současného stavu, původní výkresy, fotografie a sondy.
-
-**[Architektura](03_Architektura/Koncept.md)**  
-Architektonické návrhy a koncept rekonstrukce.
-
-**[Profese](04_Profese/Kontakty.md)**  
-Kontakty na odborníky a podklady pro statika.
-
-**[Rozhodnutí](05_Rozhodnuti_a_zmeny/Decision_log.md)**  
-Zásadní rozhodnutí v průběhu projektu.
-
-**[Plán & rozpočet](06_TODO_a_plan/TODO_aktualni.md)**  
-Aktuální úkoly, plán dalších kroků a hrubý odhad rozpočtu.
-
-**[Inspirace](07_Inspirace/Inspirace.md)**  
-Nápady a inspirace pro rekonstrukci.
+Příští krok: objednání statického posouzení (Ing. Hladký) po předání finálního návrhu.
 
 ---
 
-## O projektu
+## Kde jsme
 
-Dům, který kdysi sloužil jako bydlení prarodičů, potřebujeme přizpůsobit současnému způsobu života. Je ve slušném technickém stavu, ale dispozičně i technicky odpovídá době svého vzniku.
+| Oblast | Stav |
+|---|---|
+| Pasport stavby | ✅ Hotovo (04/2026) |
+| Architektonický návrh | ✅ Verze 12. 6. 2026 |
+| Vyklízení objektu | ✅ Hotovo |
+| Statické posouzení | ⏳ Čeká na finální PD |
+| Projektová dokumentace | ⏳ Připravuje se |
+| Stavební povolení | ⏳ Čeká na PD |
 
-Rekonstrukce probíhá ve fázích, bez spěchu, s ohledem na ekonomickou rozumnost a dlouhodobé bydlení.
+---
 
+## Klíčová rozhodnutí
+
+Aktuálně platná rozhodnutí — [kompletní log](05_Rozhodnuti_a_zmeny/Decision_log.md)
+
+- Krb v rohu místnosti, komín zůstává na místě
+- Bar pult propojující kuchyni a jídelnu
+- Kuchyňský ostrov
+- Herringbone parket v main living area
+- Schod v obývacím pokoji zanecháme
+- Stěna za krbem není nosná — bude odstraněna
+- Balkon nebude odstraněn, bude renovován
+- Vstup do domu zůstává na stávajícím místě
+
+---
+
+## Navigace
+
+[Stav domu](02_Stavajici_stav/Popis_stavajiciho_stavu.md) — pasport, parametry, výkresy
+
+[Architektura](03_Architektura/Koncept.md) — vizualizace, návrhy
+
+[TODO](06_TODO_a_plan/TODO_aktualni.md) — aktuální úkoly
+
+[Rozhodnutí](05_Rozhodnuti_a_zmeny/Decision_log.md) — decision log
+
+[Rozpočet](08_Rozpocet_a_realizace/Rozpocet_hruby_odhad.md) — náklady
+
+[Kontakty](04_Profese/Kontakty.md) — architekta, statik, projektant

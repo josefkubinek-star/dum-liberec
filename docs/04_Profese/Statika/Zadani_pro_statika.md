@@ -1,67 +1,39 @@
-# Zadání pro statika – Dům Liberec
+# Zadání pro statika
 
-## Základní informace
-- Objekt: rodinný dům
-- Lokalita: Liberec, Donská ulice
-- Období výstavby: cca 70. léta
-- Typ rekonstrukce: rozsáhlejší rekonstrukce stávajícího objektu
-- Rekonstrukce probíhá ve fázích (aktuálně řešena 1. fáze)
+## Objekt
+Rodinný dům, Donská č.p. 868, Liberec XXX - Vratislavice nad Nisou
+Postaven pravděpodobně v 70. letech, zděná konstrukce (CP).
 
----
-
-## Cíl statického posouzení
-Cílem je ověřit možnosti dispozičních a konstrukčních změn plánovaných v rámci 1. fáze rekonstrukce a identifikovat:
-- nosné konstrukce
-- možné zásahy
-- rizika a omezení
+## Statik
+Ing. Radim Hladký / Ing. Radomír Hladký (ČKAIT 0501145)
+Zadání proběhne po finalizaci architektonického návrhu — statik zpracuje podklady na základě finální PD.
 
 ---
 
 ## Podklady k dispozici
-- Původní výkresy domu
-- Aktuální architektonický návrh (Prosinec 2025)
-- Popis stávajícího stavu objektu
-- Koncept rekonstrukce (cílový stav – 1. fáze)
-- Fotodokumentace sond (bude doplněna)
+- Pasport stavby (04/2026) — kompletní výkresová dokumentace stávajícího stavu
+- Architektonický návrh Ing. Pražákové (12. 6. 2026)
+- Fotodokumentace sond
 
 ---
 
-## Klíčové otázky k posouzení
+## Klíčové otázky
 
-### 1. podzemní podlaží
-- Ověření nosných konstrukcí v technických místnostech
-- Posouzení možností budoucí instalace sauny (zatížení, vlhkost)
+### Potvrzené sondami (čeká na písemné stanovisko statika)
+- **Stěna za krbem** — sonda potvrdila, že jde o umělou přístavbu pro krb, **není nosná zeď**. Požadujeme formální potvrzení a souhlas s odstraněním.
 
----
+### K posouzení
+- **Stěna mezi obývacím pokojem a předsíní** — ověřit zda je nosná, plánován nový průchod
+- **Balkon** — statické posouzení stavu balkonu orientovaného do ulice (plánována renovace)
+- **Nosnost stropů** (1.NP) — ověření pro nové dispozice
+- **Podkroví** — průchozí šatna (probourání příčky mezi ložnicí a vedlejším pokojem)
 
-### 1. nadzemní podlaží – hlavní obytný prostor
-- Možnost odstranění:
-  - schodu ve vyvýšené části obývacího prostoru
-  - vybraných příček (zádveří, WC)
-- Posouzení:
-  - nosnosti stropů
-  - možnosti otevření prostoru směrem k původnímu vstupu
-- Ověření konstrukce krbu a komínu:
-  - možnost odstranění krbového tělesa
-  - zachování / odstranění části zadní stěny
+### Rozhodnuto — statik nepotřebuje řešit
+- Schod v obývacím pokoji — zanecháme v původní podobě
 
 ---
 
-### 2. nadzemní podlaží
-- Ověření možnosti:
-  - probourání příčky mezi ložnicí a vedlejším pokojem (průchozí šatna)
-- Posouzení odstranění balkonu orientovaného do ulice
-
----
-
-## Výstupy od statika
+## Výstupy
 - Stanovisko k nosným konstrukcím
-- Doporučení k plánovaným zásahům
-- Návrh případných nutných opatření
-- Podklad pro další fázi projektové dokumentace
-
----
-
-## Poznámka k harmonogramu
-Rekonstrukce není časově extrémně tlačená.
-Cílem je kvalitní návrh a ekonomicky rozumný postup.
+- Souhlas / podmínky k plánovaným zásahům
+- Podklad pro projektovou dokumentaci

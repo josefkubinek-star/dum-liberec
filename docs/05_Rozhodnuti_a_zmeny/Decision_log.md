@@ -5,66 +5,53 @@
 ### Pasport stavby dokončen
 - Datum: 2026-04
 - Rozhodnutí: Pasport stavby byl zpracován a autorizován.
-- Detail:
-  - Zpracovatel: Ing. Radim Hladký
-  - Autorizace: Ing. Radomír Hladký, ČKAIT 0501145
-  - Dle vyhlášky č. 131/2024 Sb.
-  - Zastavěná plocha: 98,43 m², užitná plocha: 210,78 m²
-  - Dům postaven pravděpodobně v 70. letech (ne 60. léta jak se dříve předpokládalo)
-- Dopad:
-  - Máme přesná zaměření pro projekci
-  - Podklad pro projektovou dokumentaci a stavební povolení
+- Detail: Zpracovatel Ing. Radim Hladký, autorizace Ing. Radomír Hladký (ČKAIT 0501145), dle vyhlášky č. 131/2024 Sb.
+- Zastavěná plocha 98,43 m², užitná plocha 210,78 m², 1.PP + 1.NP + podkroví.
+- Dům postaven pravděpodobně v 70. letech.
 
 ---
 
 ### Design architekta potvrzen – verze 12. 6. 2026
 - Datum: 2026-06-12
-- Rozhodnutí: Vizualizace a půdorysy od Ing. Pražákové z 12. 6. 2026 potvrzují aktuální design.
-- Potvrzené prvky:
-  - Krb v rohu místnosti (před komínem) s úložným prostorem na dřevo
-  - Bar pult s barovými stoličkami mezi kuchyní a jídelnou
-  - Kuchyňský ostrov s tmavou deskou
-  - Herringbone parket v celém main living area
-  - Modro-tyrkysová dlažba v koupelně (1.NP)
-  - Kombinace dřevěných + světlých kuchyňských frontiček
-- Dopad: design vstupuje do projektové dokumentace
+- Rozhodnutí: Vizualizace a půdorysy od Ing. Pražákové z 12. 6. 2026 jsou aktuální design.
+- Potvrzeno: krb v rohu + úložný prostor na dřevo, bar pult s barovými stoličkami, kuchyňský ostrov s tmavou deskou, herringbone parket v celém main living area, modro-tyrkysová dlažba v koupelně (1.NP), kombinace dřevěných + světlých frontiček.
 
 ---
 
-### Odstranění balkonu orientovaného do ulice
-- Datum: 2025-10-25
-- Rozhodnutí: Balkon bude odstraněn.
-- Důvod: nevyužívaný, zatéká do konstrukce, bez plánovaného využití
-- Dopad: nutné statické posouzení, úprava fasády
+### Balkon – renovace místo odstranění
+- Datum: 2026-06
+- Rozhodnutí: Balkon orientovaný do ulice **nebude odstraněn**, bude **renovován**.
+- Důvod: náklady na renovaci jsou srovnatelné s odstraněním; zachování balkonu dává větší smysl z hlediska budoucího využití.
+- Dopad: nutné zahrnout do projektové dokumentace, statické posouzení balkonu.
 
 ---
 
-### Přesunutí hlavního vstupu do domu
-- Datum: 2025-10-25
-- Rozhodnutí: Hlavní vstup nově v místě původní kuchyně (směr zahrada).
-- Důvod: lepší návaznost na zahradu, logičtější vstupní sekvence
-- Dopad: změna dispozice 1.NP, úprava přístupů
+### Vstup do domu – zůstává na stávajícím místě
+- Datum: 2026-06
+- Rozhodnutí: Hlavní vstup **nebude přesunut**. Zůstává na původním místě (z ulice).
+- Důvod: přesun vstupu by znamenal rozsáhlý stavební zásah bez dostatečného přínosu.
+- Dopad: dispozice 1.NP se mění pouze v rámci interéru, bez změny vstupní sekvence.
+
+---
+
+### Stěna za krbem – nenosná, bude odstraněna
+- Datum: 2026-01-17
+- Rozhodnutí: Stěna za krbem (v kuchyni, tvořící zadní stěnu krbového tělesa) **není nosná** a bude odstraněna.
+- Důvod: sonda ze zadní strany potvrdila, že jde o umělou přístavbu pro krb, nikoliv nosnou zeď. Statik to formálně potvrdí v rámci statického posouzení.
+- Dopad: umožňuje otevření dispozice 1.NP směrem ke krbovému prostoru.
+
+---
+
+### Schod v obývacím pokoji – zanecháme
+- Datum: 2026-01-17
+- Rozhodnutí: Betonový schod v obývacím pokoji **zůstane zachován**.
+- Důvod: sonda odhalila, že je celý vylitý betonem (3 vrstvy: 2× beton, 1× stěrka). Odstranění by bylo technicky i finančně náročné bez adekvátního přínosu.
+- Dopad: zachování stávající výškové úrovně v obývacím pokoji.
 
 ---
 
 ### Celkový charakter domu
 - Datum: 2025-08-25
 - Rozhodnutí: Světlejší a prostorově otevřenější dům.
-- Důvod: stávající dům působí tmavě a uzavřeně
-- Dopad: otevření dispozic, práce se světlem, jednoduchá a nepřeplácaná řešení
-
----
-
-### Sonda u krbu – zeď není nosná
-- Datum: 2026-01-17
-- Rozhodnutí: Zeď u krbu (sonda ze zadní strany) není nosná a může být odstraněna.
-- Důvod: sonda prokázala, že jde o přístavbu pro krb, nikoliv nosnou stěnu
-- Dopad: umožňuje otevření dispozice 1.NP; nutné formálně potvrdit statikem
-
----
-
-### Zachování betonového schodu v obývacím pokoji
-- Datum: 2026-01-17
-- Rozhodnutí: Schod bude zachován v původní podobě.
-- Důvod: sonda ukázala, že je celý vylitý betonem — odstranění by bylo technicky i finančně náročné
-- Dopad: zachování stávající výškové úrovně, úspora nákladů
+- Důvod: stávající dům působí tmavě a uzavřeně.
+- Dopad: otevření dispozic, práce se světlem, jednoduchá nepřeplácaná řešení.

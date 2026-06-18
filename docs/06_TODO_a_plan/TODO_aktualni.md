@@ -1,154 +1,86 @@
-# TODO – rozdělení rolí (Dům Liberec)
-
-Cílem tohoto TODO je jasně rozdělit práce mezi:
-- **technické / fyzické úkoly**
-- **rozhodovací / kurátorské úkoly**
-
-Aby:
-- bylo jasno, kdo co řeší
-- nedocházelo k nechtěnému vyhazování věcí
-- rekonstrukce byla zvládnutelná i psychicky
+# TODO – aktuální stav
 
 ---
 
-## 🧔 Technické a fyzické práce (on)
-
-Fokus:
-- vyklizení
-- těžká práce
-- příprava na sondy a odborníky
-- technická koordinace
-
----
+## Technické a fyzické práce
 
 ### FÁZE 1 – Vyklízení a příprava
 
 #### 1. podzemní podlaží
-- [ ] Odvoz dřeva a uhlí
-- [ ] Demontáž starého kotle na uhlí (příprava na likvidaci)
-- [ ] Vyklizení technických místností (bez třídění sentimentálních věcí)
-- [ ] Vyklizení zadní stěny garáže (barvy, nářadí, skříně)
-
----
+- [x] Odvoz dřeva a uhlí
+- [x] Demontáž starého kotle na uhlí
+- [x] Vyklizení technických místností
+- [x] Vyklizení zadní stěny garáže (barvy, nářadí, skříně)
 
 #### 1. nadzemní podlaží
-- [ ] Odstranění koberců
-- [ ] Rozebrání a odnos těžkého nábytku (sedačky, obývací stěny)
-- [ ] Odpojení a odnos staré elektroniky (TV apod.)
-- [ ] Uvolnění prostoru pro sondy (odsun nábytku, zakrytí podlah)
-- [ ] Demontáž kuchyně
-- [ ] Demontáž garnýží (zatím nedokončeno)
-
----
+- [x] Odstranění koberců
+- [x] Rozebrání a odnos těžkého nábytku (sedačky, obývací stěny)
+- [x] Odpojení a odnos staré elektroniky (TV apod.)
+- [x] Uvolnění prostoru pro sondy
+- [x] Demontáž kuchyně
+- [x] Demontáž garnýží
 
 #### 2. nadzemní podlaží
-- [ ] Odnos starých postelí a matrací
-- [ ] Demontáž garnýží
-- [ ] Vyklizení těžkých skříní (až po rozhodnutí, co zůstává)
+- [x] Odnos starých postelí a matrací
+- [x] Demontáž garnýží
+- [x] Vyklizení těžkých skříní
 
 ---
 
-### FÁZE 2 – Sondy a technické ověření
+### FÁZE 2 – Sondy (HOTOVO)
+- [x] Odkrytí schodů v obývacím pokoji (zjištěno: 3 vrstvy betonu — zanecháme)
+- [x] Sonda zezadu krbu (zjištěno: umělá přístavba, není nosná zeď — bude odstraněna)
+- [x] Odkrytí trámu (zjištěno: dřevěný trám)
 
-#### Sondy – provádíme sami (HOTOVO)
-- [x] Odkrytí schodů ve stávajícím obýváku  
-      (zjištěno: 3 vrstvy – 2× beton, 1× stěrka)
-- [x] Sonda zezadu krbu  
-      (zjištěno: přístavba pro krb, nejde o nosnou zeď)
-- [x] Odkrytí trámu  
-      (zjištěno: dřevěný trám)
+---
+
+### FÁZE 3 – Statika a dokumentace
 
 #### Úkoly pro statika
-- [ ] Ověření, zda je stěna mezi obývacím pokojem a předsíní nosná
-- [ ] Ověření stěny u krbu (potvrzení závěru sondy)
-- [ ] Posouzení možnosti odstranění schodu v obývacím pokoji
+- [ ] Ověření nosné stěny mezi obývacím pokojem a předsíní
+- [ ] Formální potvrzení: stěna za krbem není nosná (sonda potvrdila, čekáme na písemné stanovisko)
+- [x] Posouzení schodu v obývacím pokoji — **zanecháme** (rozhodnutí 1/2026)
+
+#### Koordinace
+- [ ] Předání finálního návrhu architekta statikovi
+- [ ] Objednání statického posouzení (Ing. Hladký — po finalizaci projektu)
+- [ ] Ověření funkčnosti tepelného čerpadla a vrtu
 
 ---
 
-### FÁZE 3 – Technická koordinace
-- [ ] Komunikace se statikem (termíny, přístup)
-- [ ] Předání podkladů statikovi
-- [ ] Zápis technických zjištění do dokumentace
-- [ ] Základní ověření funkčnosti:
-  - bojler
-  - tepelné čerpadlo / vrt
-
----
-
-## 👩 Kurátorka domu a paměti (ona)
-
-Fokus:
-- třídění
-- rozhodování
-- emocionální hodnota domu
-- kontinuita mezi minulostí a novým stavem
-
----
+## Kurátorka domu (ona)
 
 ### FÁZE 1 – Třídění a rozhodování
-
 #### 1. podzemní podlaží
-- [ ] Rozhodnutí o uložených věcech:
-  - vyhodit
-  - darovat
-  - ponechat
+- [ ] Rozhodnutí o uložených věcech (vyhodit / darovat / ponechat)
 - [ ] Třídění věcí v centrální místnosti
-
----
 
 #### 1. nadzemní podlaží
 - [ ] Třídění nádobí, skla a dekorací
-- [ ] Rozhodnutí o historickém nábytku:
-  - prodej
-  - likvidace
-  - zachování
+- [ ] Rozhodnutí o historickém nábytku (prodej / likvidace / zachování)
 - [ ] Výběr věcí s emocionální hodnotou
-
----
 
 #### 2. nadzemní podlaží
 - [ ] Třídění knih
 - [ ] Třídění oblečení prarodičů
-- [ ] Rozhodnutí:
-  - co zůstane v rodině
-  - co půjde dál
+- [ ] Rozhodnutí co zůstane v rodině / co půjde dál
 - [ ] Označení věcí, které se nesmí vyhodit
 
----
-
-### FÁZE 2 – Vstupy do nového návrhu
+### FÁZE 2 – Vstupy do návrhu
 - [ ] Seznam věcí, které mají zůstat (sentimentální hodnota)
-- [ ] Nápady, co by šlo zakomponovat do nového interiéru
-- [ ] Vstupy k:
-  - kuchyni
-  - koupelnám
-  - knihovně / baru
-  - ložnici
+- [ ] Vstupy k interiéru: kuchyně, koupelny, ložnice
 
 ---
 
-## 🤝 Společné úkoly
-
-Fokus:
-- směr
-- rozhodnutí
-- uzavírání variant
-
+## Společné úkoly
 - [ ] Potvrzení rozsahu 1. fáze rekonstrukce
-- [ ] Shoda na tom, co se v 1. fázi NEřeší
 - [ ] Společné rozhodnutí po stanovisku statika
-- [ ] Zápis klíčových rozhodnutí do `Decision_log.md`
+- [x] Pasport stavby — hotovo (04/2026)
+- [x] Architekt — aktuální návrh schválen (12. 6. 2026)
 
 ---
 
-## Praktická pravidla
-- Bez rozhodnutí kurátorky se **nevyhazují** věci s potenciální hodnotou
-- Technické věci a stavební materiál řeší technická role
-- Každé zásadní rozhodnutí → zápis do Decision logu
-
----
-
-## Doporučené značení při vyklízení
+## Značení při vyklízení
 - 🟢 ZACHOVAT
 - 🔵 PRODAT
 - 🟡 ROZHODNOUT POZDĚJI
