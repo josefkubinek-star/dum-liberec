@@ -3,17 +3,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
-/* ─── Barvy ─── */
-:root {
-  --color-bg:        #F8F7F4;   /* teplá bílá, ne sterilní */
+/* ─── Barvy – světlý režim ─── */
+:root,
+[data-md-color-scheme="default"] {
+  --color-bg:        #F8F7F4;
   --color-surface:   #FFFFFF;
   --color-text:      #1A1A1A;
   --color-muted:     #6B6B6B;
   --color-border:    #E0DDD8;
-  --color-accent:    #2B4C7E;   /* tmavě modrá — projekční, ne "AI blue" */
+  --color-accent:    #2B4C7E;
   --color-accent-bg: #EEF2F8;
   --color-done:      #2E7D55;
   --color-pending:   #C75000;
+}
+
+/* ─── Barvy – tmavý režim ─── */
+[data-md-color-scheme="slate"] {
+  --color-bg:        #1C1B19;
+  --color-surface:   #252320;
+  --color-text:      #E6E3DC;
+  --color-muted:     #8A8580;
+  --color-border:    #383532;
+  --color-accent:    #7BA3D4;
+  --color-accent-bg: #1C2B3E;
+  --color-done:      #4CAF7D;
+  --color-pending:   #E0824A;
+
+  /* přebít Material slate defaults */
+  --md-default-bg-color:      #1C1B19;
+  --md-default-fg-color:      #E6E3DC;
+  --md-default-fg-color--light: #8A8580;
 }
 
 /* ─── Základní typografie ─── */
@@ -90,6 +109,11 @@ body {
 }
 
 .md-header__button { color: var(--color-text) !important; }
+
+/* Skrýt duplikát "Dům Liberec" v sidebaru */
+.md-nav--primary > .md-nav__title {
+  display: none !important;
+}
 
 /* ─── Levý sidebar (navigace) ─── */
 .md-sidebar--primary {
@@ -209,7 +233,7 @@ body {
   color: var(--color-text);
 }
 
-/* ─── Citace / admonition ─── */
+/* ─── Citace ─── */
 .md-typeset blockquote {
   border-left: 3px solid var(--color-border);
   padding-left: 1rem;
@@ -217,19 +241,38 @@ body {
   margin: 1.5rem 0;
 }
 
+/* ─── PDF icon v headeru ─── */
+.pdf-print-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text) !important;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  opacity: 0.55;
+  transition: opacity 0.15s;
+  margin-right: 0.25rem;
+}
+
+.pdf-print-btn:hover { opacity: 1; }
+
+.pdf-print-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
 /* ─── MOBILE ─── */
 @media screen and (max-width: 76.1875em) {
 
-  /* Obsah bez postranního paddingu — full width */
   .md-content {
     padding: 1.25rem 1.1rem 3rem;
     border: none;
   }
 
-  /* Header — kompaktnější */
   .md-header { padding: 0 0.5rem; }
 
-  /* Tabulka — scrollovatelná na mobilu */
   .md-typeset table {
     display: block;
     overflow-x: auto;
@@ -237,20 +280,19 @@ body {
     font-size: 0.85rem;
   }
 
-  /* H1 menší na mobilu */
   .md-typeset h1 { font-size: 1.4rem; }
   .md-typeset h2 { font-size: 1.1rem; }
 
-  /* Navigace — původní Material drawer (MkDocs se o něj stará) */
   .md-sidebar--primary {
     background: var(--color-surface) !important;
   }
 }
 
-/* ─── Tisk / čistý výstup ─── */
+/* ─── Tisk ─── */
 @media print {
   .md-sidebar--primary,
   .md-header,
-  .md-footer { display: none !important; }
+  .md-footer,
+  .pdf-print-btn { display: none !important; }
   .md-content { padding: 0; border: none; }
 }
