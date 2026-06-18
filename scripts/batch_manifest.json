@@ -1,0 +1,681 @@
+{
+  "total_images": 53,
+  "batch_size": 3,
+  "total_batches": 18,
+  "batches": {
+    "1": [
+      {
+        "number": 1,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.10 (1).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.10 (1).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 2,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.10.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.10.jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 3,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.11 (1).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.11 (1).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "2": [
+      {
+        "number": 4,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.11.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.11.jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 5,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.12 (1).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.12 (1).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 6,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.12.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.12.jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "3": [
+      {
+        "number": 7,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.13.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.13.jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 8,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.33 (1).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.33 (1).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 9,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.33 (2).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.33 (2).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "4": [
+      {
+        "number": 10,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.33 (3).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.33 (3).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 11,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.33.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.33.jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 12,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (1).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (1).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "5": [
+      {
+        "number": 13,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (2).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (2).jpeg",
+        "status": "1536x2048 \u2192 1500x2000"
+      },
+      {
+        "number": 14,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (3).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (3).jpeg",
+        "status": "1536x2048 \u2192 1500x2000"
+      },
+      {
+        "number": 15,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (4).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (4).jpeg",
+        "status": "1536x2048 \u2192 1500x2000"
+      }
+    ],
+    "6": [
+      {
+        "number": 16,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (5).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (5).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 17,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (6).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (6).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 18,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (7).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (7).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "7": [
+      {
+        "number": 19,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (8).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (8).jpeg",
+        "status": "1536x2048 \u2192 1500x2000"
+      },
+      {
+        "number": 20,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (9).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (9).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 21,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.34.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34.jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "8": [
+      {
+        "number": 22,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (1).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (1).jpeg",
+        "status": "1536x2048 \u2192 1500x2000"
+      },
+      {
+        "number": 23,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (2).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (2).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 24,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (3).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (3).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "9": [
+      {
+        "number": 25,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (4).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (4).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 26,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (5).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (5).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 27,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (6).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (6).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "10": [
+      {
+        "number": 28,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (7).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (7).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 29,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.35.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35.jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 30,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (1).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (1).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "11": [
+      {
+        "number": 31,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (2).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (2).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 32,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (3).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (3).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 33,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (4).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (4).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "12": [
+      {
+        "number": 34,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (5).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (5).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 35,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (6).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (6).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 36,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (7).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (7).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "13": [
+      {
+        "number": 37,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.36.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36.jpeg",
+        "status": "1536x2048 \u2192 1500x2000"
+      },
+      {
+        "number": 38,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (1).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (1).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 39,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (10).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (10).jpeg",
+        "status": "2048x1537 \u2192 2000x1500"
+      }
+    ],
+    "14": [
+      {
+        "number": 40,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (11).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (11).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 41,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (12).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (12).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 42,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (2).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (2).jpeg",
+        "status": "2048x1537 \u2192 2000x1500"
+      }
+    ],
+    "15": [
+      {
+        "number": 43,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (3).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (3).jpeg",
+        "status": "2048x1537 \u2192 2000x1500"
+      },
+      {
+        "number": 44,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (4).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (4).jpeg",
+        "status": "2048x1537 \u2192 2000x1500"
+      },
+      {
+        "number": 45,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (5).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (5).jpeg",
+        "status": "2048x1537 \u2192 2000x1500"
+      }
+    ],
+    "16": [
+      {
+        "number": 46,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (6).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (6).jpeg",
+        "status": "2048x1537 \u2192 2000x1500"
+      },
+      {
+        "number": 47,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (7).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (7).jpeg",
+        "status": "2048x1537 \u2192 2000x1500"
+      },
+      {
+        "number": 48,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (8).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (8).jpeg",
+        "status": "2048x1537 \u2192 2000x1500"
+      }
+    ],
+    "17": [
+      {
+        "number": 49,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (9).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (9).jpeg",
+        "status": "2048x1537 \u2192 2000x1500"
+      },
+      {
+        "number": 50,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.37.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37.jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 51,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.38 (1).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.38 (1).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ],
+    "18": [
+      {
+        "number": 52,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.38 (2).jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.38 (2).jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      },
+      {
+        "number": 53,
+        "original_name": "WhatsApp Image 2026-01-31 at 21.02.38.jpeg",
+        "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.38.jpeg",
+        "status": "2048x1536 \u2192 2000x1500"
+      }
+    ]
+  },
+  "processing_log": [
+    {
+      "number": 1,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.10 (1).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.10 (1).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 2,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.10.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.10.jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 3,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.11 (1).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.11 (1).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 4,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.11.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.11.jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 5,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.12 (1).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.12 (1).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 6,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.12.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.12.jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 7,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.13.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.13.jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 8,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.33 (1).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.33 (1).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 9,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.33 (2).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.33 (2).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 10,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.33 (3).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.33 (3).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 11,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.33.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.33.jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 12,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (1).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (1).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 13,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (2).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (2).jpeg",
+      "status": "1536x2048 \u2192 1500x2000"
+    },
+    {
+      "number": 14,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (3).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (3).jpeg",
+      "status": "1536x2048 \u2192 1500x2000"
+    },
+    {
+      "number": 15,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (4).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (4).jpeg",
+      "status": "1536x2048 \u2192 1500x2000"
+    },
+    {
+      "number": 16,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (5).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (5).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 17,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (6).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (6).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 18,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (7).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (7).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 19,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (8).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (8).jpeg",
+      "status": "1536x2048 \u2192 1500x2000"
+    },
+    {
+      "number": 20,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34 (9).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34 (9).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 21,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.34.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.34.jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 22,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (1).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (1).jpeg",
+      "status": "1536x2048 \u2192 1500x2000"
+    },
+    {
+      "number": 23,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (2).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (2).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 24,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (3).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (3).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 25,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (4).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (4).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 26,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (5).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (5).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 27,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (6).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (6).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 28,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.35 (7).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35 (7).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 29,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.35.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.35.jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 30,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (1).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (1).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 31,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (2).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (2).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 32,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (3).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (3).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 33,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (4).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (4).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 34,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (5).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (5).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 35,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (6).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (6).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 36,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.36 (7).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36 (7).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 37,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.36.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.36.jpeg",
+      "status": "1536x2048 \u2192 1500x2000"
+    },
+    {
+      "number": 38,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (1).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (1).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 39,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (10).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (10).jpeg",
+      "status": "2048x1537 \u2192 2000x1500"
+    },
+    {
+      "number": 40,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (11).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (11).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 41,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (12).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (12).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 42,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (2).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (2).jpeg",
+      "status": "2048x1537 \u2192 2000x1500"
+    },
+    {
+      "number": 43,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (3).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (3).jpeg",
+      "status": "2048x1537 \u2192 2000x1500"
+    },
+    {
+      "number": 44,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (4).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (4).jpeg",
+      "status": "2048x1537 \u2192 2000x1500"
+    },
+    {
+      "number": 45,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (5).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (5).jpeg",
+      "status": "2048x1537 \u2192 2000x1500"
+    },
+    {
+      "number": 46,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (6).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (6).jpeg",
+      "status": "2048x1537 \u2192 2000x1500"
+    },
+    {
+      "number": 47,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (7).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (7).jpeg",
+      "status": "2048x1537 \u2192 2000x1500"
+    },
+    {
+      "number": 48,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (8).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (8).jpeg",
+      "status": "2048x1537 \u2192 2000x1500"
+    },
+    {
+      "number": 49,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37 (9).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37 (9).jpeg",
+      "status": "2048x1537 \u2192 2000x1500"
+    },
+    {
+      "number": 50,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.37.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.37.jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 51,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.38 (1).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.38 (1).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 52,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.38 (2).jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.38 (2).jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    },
+    {
+      "number": 53,
+      "original_name": "WhatsApp Image 2026-01-31 at 21.02.38.jpeg",
+      "processed_path": "/Users/josefkubinek/Library/CloudStorage/OneDrive-Osobn\u00ed/AI/Dum Liberec/docs/.temp_resized/WhatsApp Image 2026-01-31 at 21.02.38.jpeg",
+      "status": "2048x1536 \u2192 2000x1500"
+    }
+  ]
+}

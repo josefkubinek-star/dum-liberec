@@ -49,6 +49,9 @@ nav:
     - TODO: 06_TODO_a_plan/TODO_aktualni.md
     - Rozpočet: 08_Rozpocet_a_realizace/Rozpocet_hruby_odhad.md
   - Inspirace: 07_Inspirace/Inspirace.md
+  - Digitální archiv:
+      - Přehled a stav: 09_Digitalizovany_archiv/00_PLAN_A_STATUS.md
+      - Zpracované záznamy: 09_Digitalizovany_archiv/BATCH_1.md
 
 markdown_extensions:
   - admonition
