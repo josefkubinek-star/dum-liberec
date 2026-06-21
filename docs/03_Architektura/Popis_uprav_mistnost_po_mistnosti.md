@@ -101,11 +101,7 @@ Nezahrnuje: výměnu oken a dveří (řeší se samostatně), vytápění, běž
 
 - Postel u stěny přiléhající ke schodišti
 - Šatní skříň přes celou protější stěnu
-
-### Komora (místnost vedle ložnice)
-
-- Bez konkrétního záměru, nejspíš úložiště zavazadel a kufrů
-- Přivítáme nápad na lepší využití
+- Přilehlá komora: bez konkrétního záměru, nejspíš úložiště zavazadel a kufrů — přivítáme nápad na lepší využití
 
 ### Dětský pokoj (2. místnost vlevo)
 
