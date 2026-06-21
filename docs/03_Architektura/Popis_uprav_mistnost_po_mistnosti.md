@@ -106,6 +106,7 @@ Nezahrnuje: výměnu oken a dveří (řeší se samostatně), vytápění, běž
 ### Dětský pokoj (2. místnost vlevo)
 
 - Navrhnout rozvržení pro: postel, pracovní stůl, šatní skříň, komodu a hrací prostor
+- Pokud prostor dovolí: menší gauč / sedací kout a TV na stěnu
 
 ### Pracovna / pokoj pro hosty
 
