@@ -1,7 +1,5 @@
 # Přehled plánovaných úprav — místnost po místnosti
 
-Rodinný dům Donská 868, Liberec — Vratislavice nad Nisou
-
 Dokument popisuje plánované stavební a dispoziční úpravy pro potřeby projektové dokumentace.
 Nezahrnuje: výměnu oken a dveří (řeší se samostatně), vytápění, běžnou revitalizaci (malby, podlahy).
 
