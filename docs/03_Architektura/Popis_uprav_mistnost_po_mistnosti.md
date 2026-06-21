@@ -1,7 +1,9 @@
 # Přehled plánovaných úprav — místnost po místnosti
 
 Dokument popisuje plánované stavební a dispoziční úpravy pro potřeby projektové dokumentace.
-Nezahrnuje: výměnu oken a dveří (řeší se samostatně), vytápění, běžnou revitalizaci (malby, podlahy).
+Nezahrnuje: výměnu oken a dveří (řeší se samostatně), vytápění, běžnou revitalizaci (malby).
+
+Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnostech, kde jsou přítomny.
 
 ---
 
