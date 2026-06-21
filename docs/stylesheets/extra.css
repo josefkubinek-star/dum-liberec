@@ -290,9 +290,36 @@ body {
 
 /* ─── Tisk ─── */
 @media print {
+  /* Vždy bílá stránka, černý text — bez ohledu na dark mode */
+  :root, [data-md-color-scheme="slate"] {
+    --color-bg:        #FFFFFF !important;
+    --color-surface:   #FFFFFF !important;
+    --color-text:      #000000 !important;
+    --color-muted:     #555555 !important;
+    --color-border:    #CCCCCC !important;
+    --color-accent:    #1A3A6B !important;
+    --color-accent-bg: #EEF2F8 !important;
+    --md-default-bg-color: #FFFFFF !important;
+    --md-default-fg-color: #000000 !important;
+  }
+
+  body, html {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    color-scheme: light !important;
+  }
+
+  .md-main__inner,
+  .md-content,
+  .md-typeset {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+
   .md-sidebar--primary,
   .md-header,
   .md-footer,
   .pdf-print-btn { display: none !important; }
+
   .md-content { padding: 0; border: none; }
 }
