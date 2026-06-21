@@ -46,7 +46,9 @@ nav:
   - Přehled: index.md
   - Zadání: 01_Zadani_a_cile/Zadani_projektu.md
   - Stav domu: 02_Stavajici_stav/Popis_stavajiciho_stavu.md
-  - Architektura: 03_Architektura/Koncept.md
+  - Architektura:
+    - Koncept: 03_Architektura/Koncept.md
+    - Úpravy místnost po místnosti: 03_Architektura/Popis_uprav_mistnost_po_mistnosti.md
   - Profese:
     - Kontakty: 04_Profese/Kontakty.md
     - Statika: 04_Profese/Statika/Zadani_pro_statika.md
