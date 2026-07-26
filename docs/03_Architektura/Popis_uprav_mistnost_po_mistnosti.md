@@ -7,7 +7,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 ---
 
-<div class="floor-header">1. podzemní podlaží</div>
+## 1. podzemní podlaží
 
 ![Půdorys 1.PP — stávající stav se zásuvkami](./images/1pp-pudorys-zasuvky.png)
 
@@ -119,7 +119,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 ---
 
-<div class="floor-header">1. nadzemní podlaží</div>
+## 1. nadzemní podlaží
 
 ### Zádveří (rozšíření do původní chodby)
 
@@ -158,7 +158,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 ---
 
-<div class="floor-header">Podkroví</div>
+## Podkroví
 
 ### Chodba
 

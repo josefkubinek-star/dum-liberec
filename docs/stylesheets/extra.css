@@ -1,7 +1,7 @@
 /* Dům Liberec – projektový web */
 /* Cíl: čistý, teplý, čitelný. Nechceme dashboard ani AI look. */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* ─── Barvy – světlý režim ─── */
 :root,
@@ -58,24 +58,56 @@ body {
   color: var(--color-text);
 }
 
+/* ─── h2 = podlaží ─── */
+/* verzálky, vycentrované, s vodorovnými čárami po stranách */
 .md-typeset h2 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  margin-top: 2.5rem;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
   color: var(--color-text);
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
-.md-typeset h3 {
-  font-size: 1.05rem;
-  font-weight: 600;
-  margin-top: 1.75rem;
-  margin-bottom: 0.5rem;
-  color: var(--color-text);
+.md-typeset h2::before,
+.md-typeset h2::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: var(--color-border);
 }
+
+/* ─── h3 = místnost (1.01 Garáž apod.) ─── */
+.md-typeset h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  margin-top: 3rem;
+  margin-bottom: 0.75rem;
+  padding-top: 1.25rem;
+  border-top: 2px solid var(--color-border);
+}
+
+/* ─── h4 = sekce uvnitř místnosti (Stavební, Elektro…) ─── */
+.md-typeset h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-muted);
+  margin-top: 1.25rem;
+  margin-bottom: 0.3rem;
+}
+
+.md-typeset h4 + ul { margin-top: 0.3rem; }
 
 /* ─── Layout ─── */
 .md-main__inner { background: var(--color-bg); }
@@ -241,6 +273,15 @@ body {
   margin: 1.5rem 0;
 }
 
+/* ─── Obrázky (půdorysy) ─── */
+.md-typeset img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
 /* ─── PDF icon v headeru ─── */
 .pdf-print-btn {
   background: none;
@@ -281,7 +322,8 @@ body {
   }
 
   .md-typeset h1 { font-size: 1.4rem; }
-  .md-typeset h2 { font-size: 1.1rem; }
+  .md-typeset h2 { font-size: 0.9rem; letter-spacing: 0.1em; gap: 0.6rem; }
+  .md-typeset h3 { font-size: 1rem; }
 
   .md-sidebar--primary {
     background: var(--color-surface) !important;
@@ -322,130 +364,4 @@ body {
   .pdf-print-btn { display: none !important; }
 
   .md-content { padding: 0; border: none; }
-}
-
-/* ─── Místnosti po místnostech – hierarchie nadpisů ─── */
-
-/* h3 = místnost (-1.01 Garáž apod.) — výraznější, verzálky */
-.md-typeset h3 {
-  font-size: 1.15rem !important;
-  font-weight: 700 !important;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-top: 3rem !important;
-  margin-bottom: 0.75rem !important;
-  padding-top: 1rem;
-  border-top: 2px solid var(--color-border);
-  color: var(--color-text) !important;
-}
-
-/* h4 = sekce uvnitř místnosti (Stavební, Elektro…) — menší, méně prostoru */
-.md-typeset h4 {
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: var(--color-muted);
-  margin-top: 0.9rem;
-  margin-bottom: 0.2rem;
-}
-
-/* ─── Místnosti po místnostech – hierarchie nadpisů ─── */
-
-/* h3 = místnost (-1.01 Garáž apod.) — výraznější, verzálky */
-.md-typeset h3 {
-  font-size: 1.15rem !important;
-  font-weight: 700 !important;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-top: 3rem !important;
-  margin-bottom: 0.75rem !important;
-  padding-top: 1rem;
-  border-top: 2px solid var(--color-border);
-  color: var(--color-text) !important;
-}
-
-/* h4 = sekce uvnitř místnosti (Stavební, Elektro…) — menší, méně prostoru */
-.md-typeset h4 {
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: var(--color-muted);
-  margin-top: 0.9rem;
-  margin-bottom: 0.2rem;
-}
-
-/* ─── Nadpisy podlaží (h2) — verzálky, centrované s čárami ─── */
-.md-typeset h2 {
-  display: flex !important;
-  align-items: center;
-  gap: 0.75rem;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.85rem !important;
-  font-weight: 700 !important;
-  color: var(--color-muted) !important;
-  border-bottom: none !important;
-  margin-top: 3rem !important;
-  margin-bottom: 1.5rem !important;
-  padding-bottom: 0 !important;
-}
-
-.md-typeset h2::before,
-.md-typeset h2::after {
-  content: "";
-  flex: 1;
-  border-top: 1px solid var(--color-border);
-}
-
-/* ─── Podlaží h2 – fix s vyšší specifičností ─── */
-html .md-typeset h2 {
-  text-align: center !important;
-  text-transform: uppercase !important;
-  font-size: 0.78rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.14em !important;
-  color: var(--color-muted) !important;
-  border-bottom: none !important;
-  padding-bottom: 0 !important;
-  position: relative;
-  overflow: hidden;
-  margin-top: 3.5rem !important;
-  margin-bottom: 2rem !important;
-}
-
-html .md-typeset h2::before,
-html .md-typeset h2::after {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  width: 100%;
-  height: 1px;
-  background: var(--color-border);
-  position: absolute;
-  top: 50%;
-}
-
-html .md-typeset h2::before { right: 100%; margin-right: 0.75em; }
-html .md-typeset h2::after  { left:  100%; margin-left:  0.75em; }
-
-/* ─── floor-header: nadpis podlaží s čárami ─── */
-.floor-header {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--color-muted);
-  margin: 3.5rem 0 2rem;
-}
-.floor-header::before,
-.floor-header::after {
-  content: "";
-  flex: 1;
-  border-top: 1px solid var(--color-border);
 }
