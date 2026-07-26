@@ -9,37 +9,113 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 ## 1. podzemní podlaží
 
-### Garáž
+![Půdorys 1.PP — stávající stav se zásuvkami](./images/1pp-pudorys-zasuvky.png)
 
-- Výměna stávajících vrat za elektrická sekční vrata
-- Příprava druhého parkovacího stání před garáží (terénní úprava, násyp)
+### Oblast před garáží *(mimo dům)*
+
+- Příprava druhého parkovacího stání — terénní úprava, násyp
 - Výměna plotových vrat u vjezdu za elektrická
 
-### Centrální místnost (umývárna / prádelna)
+### -1.01 Garáž
 
-- Odstranění příčky ke koupelně, odstranění vany
-- Revitalizace stávajícího sprchového koutu
-- Příprava pro pračku, sušičku a prostor na třídění prádla; uvažujeme i o možnosti věšení prádla přímo v místnosti
-- Využití prostoru pod schody — úložný prostor, nutné osvětlení
-- Úložné prostory jinak nenavrhovat, využijeme stávající nábytek
+**Stavební**
 
-### Kotelna
+- Výměna stávajících vrat za elektrická sekční vrata
 
-- Odstranění kotle na tuhá paliva
-- Zůstává pouze tepelné čerpadlo, žádné další vybavení
+**Elektro**
+
+- Zachovat stávající zásuvky
+- Přidat 1 zásuvku na stěně u vstupních vrat
+
+### -1.02 Chodba
+
+**Stavební**
+
+- Bojler pravděpodobně zůstává na pravé straně při východu z garáže
+- Podlaha: doporučujeme LVT vinyl nebo adekvátní alternativu — vodotěsná, příjemná na dotek; konkrétní materiál může být navržen projektantem
+
+**Elektro**
+
+- Zásuvka na levé straně při východu z garáže
+- Zásuvka na protější stěně
+
+**Ostatní**
+
+- Jiné úložné prostory nenavrhovat, bude využit stávající nábytek
+
+### -1.03 Kotelna
+
+**Stavební**
+
+- Odstranění kotle na tuhá paliva; zůstává pouze tepelné čerpadlo
 - Revitalizace prostoru
+- Podlaha: doporučujeme LVT vinyl nebo adekvátní alternativu — stejný materiál jako v chodbě, prostor je pravidelně využíván včetně průchodu ze sauny do sprchy
 
-### Uhelna (přestavba na saunu)
+**Elektro**
 
-- Příprava pro saunu umístěnou na stěně přiléhající ke schodišti
-- Za saunou malý prostor pro sezení / odpočinek, oddělený dveřmi od kotelny
-- Sprcha pro saunu bude využívána v centrální místnosti, v uhelně ji nebudujeme
+- Zásuvka nalevo od vstupních dveří
+- Zásuvka na protější stěně
 
-### Spíž
+### -1.04 Uhelna → Sauna + Odpočívárna
 
-- Bez zásadních úprav, zůstává pro skladování potravin
-- Stávající okno doporučujeme řešit s průsvitnou nebo tmavou úpravou (redukce světla)
-- Lednice v prostoru zatím otevřená otázka, přivítáme nápad
+![Detail dispozice — sauna a odpočívárna](./images/1pp-sauna-detail.png)
+
+**Stavební**
+
+- Skluz pro uhlí zabetonovat
+- Vyklenek pod schody zabetonovat — zajistí obdélníkový tvar sauny; vyklenek není zaznamenán v pasportu stavby, je vyznačen modře v přiloženém nákresu
+- Sauna umístěná na stěně přiléhající ke schodišti
+- Před saunou prostor odpočívárny s relaxačním obkladem; odděleno dveřmi směrem ke kotelně
+- Sprcha pro saunu se v této místnosti nevytváří — bude využívána v -1.07 Umývárna
+
+**Elektro**
+
+- Zásuvka v prostoru odpočívárny
+
+### -1.05 Sklep
+
+**Stavební**
+
+- Bez zásadních úprav
+- Stávající okno: průsvitná nebo tmavá úprava (redukce světla)
+
+**Elektro**
+
+- Zásuvka napravo od vstupních dveří
+- Zásuvka na protější stěně u okna
+
+**Otevřené otázky**
+
+- Umístění lednice — zatím nerozhodnuto
+
+### -1.06 Komora *(prostor pod schody)*
+
+**Stavební**
+
+- Úložný prostor, bude využit stávající nábytek
+- Nutné osvětlení
+
+**Elektro**
+
+- Pouze osvětlení, bez zásuvek
+
+### -1.07 Umývárna
+
+**Stavební**
+
+- Odstranění vany; instalace výlevky / technického umyvadla (hluboký dřez pro předpírání prádla)
+- Revitalizace stávajícího sprchového koutu, uzavřené provedení
+- Pračka a sušička na sobě, umístění na stěně
+- Úzká úložná skříň vedle pračky/sušičky
+- Úzká úložná skříň vedle výlevky
+
+**Elektro**
+
+- Zásuvky pro pračku a sušičku na stěně za spotřebiči
+
+### -1.08 Chodba + schodiště
+
+- Revitalizace, žádné zásadní stavební změny
 
 ---
 

@@ -13,26 +13,27 @@ Architekt: Ing. Pražáková
 
 ## Aktuální design (12. 6. 2026)
 
-Nejnovější verze od architekta potvrzuje klíčová rozhodnutí a přináší konkrétní vizualizace:
+Nejnovější verze od architekta potvrzuje klíčová rozhodnutí a přináší konkrétní vizualizace.
+Barvy ve vizualizaci jsou pouze orientační render — finální materiály a odstíny se teprve upřesní.
 
 **Living room / obývací pokoj**
 - Krb v rohu místnosti před komínem (komín zůstává na místě)
 - Pod krbem prostor na dřevo
-- Tmavá dřevěná podlaha se zachovaným betonovým stupínkem
+- Zachovaný betonový stupínek
 
 **Kitchen / kuchyně**
 - Bar pult s barovými stoličkami propojující kuchyni s jídelnou
-- Kuchyňský ostrov s tmavou pracovní deskou
-- Kombinace dřevěných + světlých/krémových frontiček
+- Kuchyňský ostrov
 - Side-by-side lednice + zabudovaná trouba
-- Herringbone parket v kuchyňské části
 
 **Dining / jídelna**
-- Herringbone parket
 - Jídelní stůl propojený s barem
 
+**Podlahy (main living area)**
+- Renovace stávajících parket
+
 **Bathroom / koupelna (1.NP)**
-- Modro-tyrkysová dlažba
+- Dlažba (finální výběr se upřesní)
 
 ---
 
@@ -64,6 +65,12 @@ Tři stávající kaskády před objektem budou upraveny:
 
 ![Přístup a kaskády před domem](Pristup_a_kaskady_pred_domem.jpg)
 
+### Rozšíření parkovacího místa
+
+Ing. Pražáková doporučuje rozšíření parkovacího stání svahovou stranou (násyp). Šíře stání 2,5 m při kolmém postavení. Stávající pěší nástup od garáže zachovat jako schodiště.
+
+[Vizualizace rozšíření parkování – Ing. Pražáková](Parkovani_architekt.pdf)
+
 ---
 
 ## 1. podzemní podlaží
@@ -81,15 +88,15 @@ Tři stávající kaskády před objektem budou upraveny:
 - Bar pult propojující kuchyni a jídelnu (s barovými stoličkami)
 - Kuchyňský ostrov
 - Krb v rohu před komínem
-- Herringbone parket v celém main living area
-- Koupelna s WC a sprchou (tyrkysová dlažba)
+- Renovace stávajících parket
+- Koupelna s WC a sprchou
 
 ---
 
 ## 2. nadzemní podlaží (podkroví)
 - Modernizace koupelny
 - Ložnice, dětský pokoj, pracovna bez zásadních dispozičních změn
-- Odstranění balkonu do ulice
+- Renovace balkonu do ulice
 
 ---
 
