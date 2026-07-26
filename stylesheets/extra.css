@@ -323,3 +323,29 @@ body {
 
   .md-content { padding: 0; border: none; }
 }
+
+/* ─── Místnosti po místnostech – hierarchie nadpisů ─── */
+
+/* h3 = místnost (-1.01 Garáž apod.) — výraznější, verzálky */
+.md-typeset h3 {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 3rem !important;
+  margin-bottom: 0.75rem !important;
+  padding-top: 1rem;
+  border-top: 2px solid var(--color-border);
+  color: var(--color-text) !important;
+}
+
+/* h4 = sekce uvnitř místnosti (Stavební, Elektro…) — menší, méně prostoru */
+.md-typeset h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--color-muted);
+  margin-top: 0.9rem;
+  margin-bottom: 0.2rem;
+}
