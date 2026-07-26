@@ -16,7 +16,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 - Příprava druhého parkovacího stání — terénní úprava, násyp
 - Výměna plotových vrat u vjezdu za elektrická
 
-### -1.01 Garáž
+### 1.01 Garáž
 
 #### Stavební
 
@@ -27,7 +27,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 - Zachovat stávající zásuvky
 - Přidat 1 zásuvku na stěně u vstupních vrat
 
-### -1.02 Chodba
+### 1.02 Chodba
 
 #### Stavební
 
@@ -43,7 +43,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 - Jiné úložné prostory nenavrhovat, bude využit stávající nábytek
 
-### -1.03 Kotelna
+### 1.03 Kotelna
 
 #### Stavební
 
@@ -56,7 +56,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 - Zásuvka nalevo od vstupních dveří
 - Zásuvka na protější stěně
 
-### -1.04 Uhelna → Sauna + Odpočívárna
+### 1.04 Uhelna → Sauna + Odpočívárna
 
 ![Detail dispozice — sauna a odpočívárna](./images/1pp-sauna-detail.png)
 
@@ -72,7 +72,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 - Zásuvka v prostoru odpočívárny
 
-### -1.05 Sklep
+### 1.05 Sklep
 
 #### Stavební
 
@@ -88,7 +88,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 - Umístění lednice — zatím nerozhodnuto
 
-### -1.06 Komora *(prostor pod schody)*
+### 1.06 Komora *(prostor pod schody)*
 
 #### Stavební
 
@@ -99,7 +99,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 - Pouze osvětlení, bez zásuvek
 
-### -1.07 Umývárna
+### 1.07 Umývárna
 
 #### Stavební
 
@@ -113,7 +113,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 - Zásuvky pro pračku a sušičku na stěně za spotřebiči
 
-### -1.08 Chodba + schodiště
+### 1.08 Chodba + schodiště
 
 - Revitalizace, žádné zásadní stavební změny
 
