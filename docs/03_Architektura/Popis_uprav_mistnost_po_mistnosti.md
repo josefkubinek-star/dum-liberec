@@ -18,40 +18,40 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 ### -1.01 Garáž
 
-**Stavební**
+#### Stavební
 
 - Výměna stávajících vrat za elektrická sekční vrata
 
-**Elektro**
+#### Elektro
 
 - Zachovat stávající zásuvky
 - Přidat 1 zásuvku na stěně u vstupních vrat
 
 ### -1.02 Chodba
 
-**Stavební**
+#### Stavební
 
 - Bojler pravděpodobně zůstává na pravé straně při východu z garáže
 - Podlaha: doporučujeme LVT vinyl nebo adekvátní alternativu — vodotěsná, příjemná na dotek; konkrétní materiál může být navržen projektantem
 
-**Elektro**
+#### Elektro
 
 - Zásuvka na levé straně při východu z garáže
 - Zásuvka na protější stěně
 
-**Ostatní**
+#### Ostatní
 
 - Jiné úložné prostory nenavrhovat, bude využit stávající nábytek
 
 ### -1.03 Kotelna
 
-**Stavební**
+#### Stavební
 
 - Odstranění kotle na tuhá paliva; zůstává pouze tepelné čerpadlo
 - Revitalizace prostoru
 - Podlaha: doporučujeme LVT vinyl nebo adekvátní alternativu — stejný materiál jako v chodbě, prostor je pravidelně využíván včetně průchodu ze sauny do sprchy
 
-**Elektro**
+#### Elektro
 
 - Zásuvka nalevo od vstupních dveří
 - Zásuvka na protější stěně
@@ -60,7 +60,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 
 ![Detail dispozice — sauna a odpočívárna](./images/1pp-sauna-detail.png)
 
-**Stavební**
+#### Stavební
 
 - Skluz pro uhlí zabetonovat
 - Vyklenek pod schody zabetonovat — zajistí obdélníkový tvar sauny; vyklenek není zaznamenán v pasportu stavby, je vyznačen modře v přiloženém nákresu
@@ -68,40 +68,40 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 - Před saunou prostor odpočívárny s relaxačním obkladem; odděleno dveřmi směrem ke kotelně
 - Sprcha pro saunu se v této místnosti nevytváří — bude využívána v -1.07 Umývárna
 
-**Elektro**
+#### Elektro
 
 - Zásuvka v prostoru odpočívárny
 
 ### -1.05 Sklep
 
-**Stavební**
+#### Stavební
 
 - Bez zásadních úprav
 - Stávající okno: průsvitná nebo tmavá úprava (redukce světla)
 
-**Elektro**
+#### Elektro
 
 - Zásuvka napravo od vstupních dveří
 - Zásuvka na protější stěně u okna
 
-**Otevřené otázky**
+#### Otevřené otázky
 
 - Umístění lednice — zatím nerozhodnuto
 
 ### -1.06 Komora *(prostor pod schody)*
 
-**Stavební**
+#### Stavební
 
 - Úložný prostor, bude využit stávající nábytek
 - Nutné osvětlení
 
-**Elektro**
+#### Elektro
 
 - Pouze osvětlení, bez zásuvek
 
 ### -1.07 Umývárna
 
-**Stavební**
+#### Stavební
 
 - Odstranění vany; instalace výlevky / technického umyvadla (hluboký dřez pro předpírání prádla)
 - Revitalizace stávajícího sprchového koutu, uzavřené provedení
@@ -109,7 +109,7 @@ Podlahy: stávající parkety zachováváme a revitalizujeme ve všech místnost
 - Úzká úložná skříň vedle pračky/sušičky
 - Úzká úložná skříň vedle výlevky
 
-**Elektro**
+#### Elektro
 
 - Zásuvky pro pračku a sušičku na stěně za spotřebiči
 
