@@ -2,6 +2,42 @@
 
 ---
 
+### SAUNA – UMÍSTĚNÍ V BÝVALÉ UHELNĚ
+- Datum: 2026-08-19
+- Rozhodnutí: Sauna bude v prostoru bývalé uhelny.
+- Detail: Výklenek navíc oproti zaměření se nedozdívá — využije se jako prodloužení lavice nebo jako přirozená tepelná vrstva. Starý shoz na uhlí se zachovává jako potenciální trasa pro odtah/vzduchotechniku sauny, konkrétní řešení se upřesní podle typu kamen a požadavků na větrání.
+- Dopad: Odpočívárna před saunou se ruší (prostor nestačí) — funkce omezena na odložení ručníků/županů. Odpočinková část se přesouvá do centrální místnosti.
+
+---
+
+### CENTRÁLNÍ MÍSTNOST – TECHNICKÁ ČÁST A SPRCHA
+- Datum: 2026-08-19
+- Rozhodnutí: Vedle sprchy vznikne technická část s pračkou a sušičkou nad sebou, technickým umyvadlem a úložným prostorem na prací prostředky. Stávající sprchový kout zůstává a bude zrevitalizován.
+- Detail: Stávající poloha příčky mezi sprchou a technickou částí pravděpodobně vyhoví, případně mírný posun podle rozměrů spotřebičů/umyvadla/sprchy. Krátká příčka vpravo od schodů se odstraňuje.
+- Dopad: Centrální místnost přebírá i roli odpočívárny k sauně.
+
+---
+
+### PODLAHA CENTRÁLNÍ MÍSTNOSTI – VINYL (doporučeno, čeká na potvrzení)
+- Datum: 2026-08-19
+- Rozhodnutí: Doporučen vinyl (SPC/rigid core) místo dlažby.
+- Důvod: Voděodolný, teplejší na dotek než dlažba, snese vlhko od sprchy a prádelny, prostor působí víc "obytně". Riziko: při trvale vyšší vlhkosti bez dobrého větrání může časem trpět na spojích — v tom případě záložní varianta je dlažba s dekorem dřeva.
+
+---
+
+### TERASA – POSUN ZA ROH DOMU
+- Datum: 2026-08-19
+- Rozhodnutí: Terasa nebude přímo u výstupu z kuchyně, ale za rohem směrem do zahrady.
+- Důvod: Více soukromí, lepší oslunění (od poledne postupně do večera).
+
+---
+
+### GARÁŽ – ORIENTACE SVĚTEL
+- Datum: 2026-08-19
+- Rozhodnutí: Světla v garáži budou otočena podélně vzhledem k výsuvným garážovým vratům.
+
+---
+
 ### Pasport stavby dokončen
 - Datum: 2026-04
 - Rozhodnutí: Pasport stavby byl zpracován a autorizován.
@@ -55,3 +91,16 @@
 - Rozhodnutí: Světlejší a prostorově otevřenější dům.
 - Důvod: stávající dům působí tmavě a uzavřeně.
 - Dopad: otevření dispozic, práce se světlem, jednoduchá nepřeplácaná řešení.
+
+---
+
+## Otevřené body
+
+### OTEVŘENO – DĚTSKÝ POKOJ / PRACOVNA V PODKROVÍ
+- Detail: Čeká se na variantu od architektky: dětský pokoj do druhého pokoje (ne původně navrženého), pracovna/pokoj pro hosty do pokoje u balkonu, v obou vestavěné skříně dle zákresu.
+
+### OTEVŘENO – KOUPELNA V PODKROVÍ
+- Detail: Preference walk-in sprcha, náhradní varianta rohová vana + sprcha od obvodové zdi. Čeká se na prostorové posouzení od architektky.
+
+### K OVĚŘENÍ – VODA A ODPADY
+- Detail: Není záznam o konkrétních problematických svodech/vedeních. Ověřit u Hladkého/architektky před rozvody.
