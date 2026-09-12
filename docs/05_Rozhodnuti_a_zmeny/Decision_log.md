@@ -2,6 +2,42 @@
 
 ---
 
+### PŘEKLAD MEZI KUCHYNÍ A JÍDELNOU (1.04/1.06)
+- Datum: 2026-09-05
+- Rozhodnutí: Otvor bude nesen překladem 2× IPE 180 na sloupcích 2× Jäkl 100×100×4, patní plech min. 160×300×6 mm
+- Důvod: Potvrzeno statickým výpočtem Ing. Alexandra Šruta (KASTA)
+- Detail: Přesný postup montáže (sloupky → IPE z jedné strany → IPE z druhé strany → teprve bourání) musí dostat stavební firma jako závazný postup
+- Dopad: Definuje realizační postup, nedodržení pořadí ohrožuje stabilitu stropu při bourání
+
+---
+
+### PŘEKLAD MEZI OBÝVÁKEM A PŘEDSÍNÍ (1.05/1.03) – PODMÍNĚNO SONDOU
+- Datum: 2026-09-05
+- Rozhodnutí: Před bouráním otvoru musí proběhnout sonda k ověření, zda příčka nese strop
+- Důvod: Statik nemá jistotu o funkci příčky, viz statický výpočet KASTA
+- Detail: Pokud sonda potvrdí stropní trám → 2× UPE 65 + dočasné podepření stropu z obou stran před bouráním; pokud ne → bourání bez dočasné podpory
+- Dopad: Otevřená položka — nelze zadat stavební firmě do rozpočtu, dokud sonda neproběhne
+
+---
+
+### MALÉ PŘEKLADY U 1.06 A SCHODIŠTĚ
+- Datum: 2026-09-05
+- Rozhodnutí: Rozšíření vstupu do 1.06 (terasa) řešeno překladem 3× IPE 100, okna na schodiště překladem 3× L 60×60×6 (nebo 3× UPE 50)
+- Důvod: Potvrzeno statickým výpočtem KASTA, malá rozpětí (1,5 m a 60 cm)
+- Detail: Standardní řešení, bez zvláštních nároků na postup
+- Dopad: Žádný — lze rovnou předat do poptávky stavební firmě
+
+---
+
+### ZJIŠTĚNÍ: STROP JE ŽELEZOBETON, NE OCEL
+- Datum: 2026-09-05
+- Rozhodnutí: Aktualizovat předpoklad o konstrukci stropu — dříve zvažovaný skrytý ocelový nosník sondou nepotvrzen, strop se jeví jako ŽB konstrukce
+- Důvod: Sondování provedené v rámci statického výpočtu KASTA
+- Detail: Nosné pilíře nesené stropním nosníkem nad 1.PP zůstávají zachovány, definitivní ověření až při realizaci
+- Dopad: Mění vstupní předpoklad pro další statické úvahy v této části domu
+
+---
+
 ### SAUNA – UMÍSTĚNÍ V BÝVALÉ UHELNĚ
 - Datum: 2026-08-19
 - Rozhodnutí: Sauna bude v prostoru bývalé uhelny.

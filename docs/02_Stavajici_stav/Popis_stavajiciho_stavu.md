@@ -25,7 +25,15 @@
 
 ## Technický stav
 
-Stavba nevykazuje zjevné statické vady. Z hlediska tepelně izolačních vlastností odpovídá době vzniku. Vytápění zajišťuje kombinace tepelného čerpadla (cca 3 roky staré, plánováno zachovat) a kotle na tuhá paliva.
+Stavba nevykazuje zjevné statické vady.
+
+- Statický výpočet a zpráva statika (Ing. Alexandr Šrut, KASTA) dokončen a doručen 5. 9. 2026
+- Řeší tři otvory v 1.NP + potvrzuje/vyvrací konstrukční předpoklady
+- Otevřený bod: sonda 1.03/1.05 před bouráním
+- Otevřený bod: upřesnit „Odbourání kamen" u schodiště se statikem/Hladkým
+- Krok dál: statika hotová → lze oslovovat stavební firmy s konkrétní specifikací
+
+Z hlediska tepelně izolačních vlastností odpovídá době vzniku. Vytápění zajišťuje kombinace tepelného čerpadla (cca 3 roky staré, plánováno zachovat) a kotle na tuhá paliva.
 
 Okna a dveře jsou původní dřevěná, špaletová konstrukce, s jednoduchým zasklením. Základy pravděpodobně základové pasy bez zjevných vad.
 
