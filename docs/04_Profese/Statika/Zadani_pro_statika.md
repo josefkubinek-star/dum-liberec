@@ -42,6 +42,8 @@ Zadání proběhne po finalizaci architektonického návrhu — statik zpracuje 
 
 ## Statický výpočet — Ing. Alexandr Šrut (KASTA, 5. 9. 2026)
 
+**Dokument ke stažení:** [Statický výpočet a zpráva statika (PDF)](Statika_a_zprava_Srut_2026-09-05.pdf)
+
 **Zdroj:** D 1.2 Stavebně konstrukční řešení — Statický výpočet a zpráva statika, stavební úpravy domu č.p. 868, Donská, Liberec XXX – Vratislavice. Podklad: stavební část projektu Ing. R. Hladký, Český Dub.
 
 **Rozsah:** Úpravy se týkají pouze 1.NP (přízemí). Dům = plné cihelné zdivo, stropy převážně betonové, nad místností 1.04 dřevěné.
