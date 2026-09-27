@@ -2,6 +2,51 @@
 
 ---
 
+### VÝMĚNA OKEN A DVEŘÍ VE VŠECH MÍSTNOSTECH
+- Datum: 2026-09-27
+- Rozhodnutí: Okna a dveře se vymění ve všech místnostech domu, kde se vyskytují – napříč 1.PP, 1.NP i podkrovím
+- Důvod: Sjednocení rozsahu rekonstrukce, aby stavební firma nacenila kompletní výměnu bez mezer mezi jednotlivými podklady po podlažích
+- Detail: V 1.PP se okna nevyskytují v suterénní hale, sauně a komoře pod schodištěm, jinde jsou zahrnuta (garáž, sklep, kotelna, umývárna, chodba+schodiště). V 1.NP a v podkroví jsou okna a dveře doplněny do všech místností, kde jsou dle skutečného stavu
+- Dopad: Rozšiřuje rozsah oproti dřívějšímu předpokladu, že výměna oken/dveří je řešena jako samostatný projekt mimo tuto rekonstrukci
+
+---
+
+### 1.PP – KOTELNA, SAUNA, UMÝVÁRNA
+- Datum: 2026-09-27
+- Rozhodnutí: Kotel na tuhá paliva se v kotelně zlikviduje a otvory do komína se zaslepí, tepelné čerpadlo zůstává jediným zdrojem vytápění. Uhelna se přestaví na saunu s využitím stávajícího skluzu pro uhlí jako větracího kanálu. V umývárně se odstraní příčka vlevo od sprchy a stávající vana, vznikne nová sprcha a příprava pro pračku/sušičku s dřezem
+- Důvod: Uhelný kotel je vzhledem k tepelnému čerpadlu nepotřebný. Skluz pro uhlí lze prakticky využít k odvětrání sauny bez nutnosti bourání. Umývárna potřebuje modernizaci sanitárního vybavení
+- Detail: Skluz pro uhlí se nebourá, zůstává jako větrací kanál. Podlahy v 1.PP budou vinylové ve všech místnostech kromě garáže (tam zůstává betonová mazanina s nátěrem)
+- Dopad: Definuje rozsah bouracích a řemeslných prací v 1.PP pro poptávku u stavebních firem. Otevřená otázka: vhodnost vinylové podlahy v umývárně (mokrý provoz)
+
+---
+
+### 1.NP – ZÁDVEŘÍ, OBÝVACÍ POKOJ, KOUPELNA, JÍDELNA, KUCHYNĚ
+- Datum: 2026-09-27
+- Rozhodnutí: Zádveří a malá koupelna (soc. zázemí) se rozšíří do prostoru bývalé chodby. Do obývacího pokoje vznikne nový vstup s velkými prosklenými dveřmi pro prosvětlení. V jídelně se odstraní dřevěné podhledy stropu (odkryje se bílý strop), odhalí se stropní trámy a odstraní se boční obložení schodiště kvůli budoucí knihovně. Venkovní dveře z kuchyně na terasu se rozšíří na dvoukřídlé provedení (jedno křídlo užší, otevíratelné dle potřeby)
+- Důvod: Zlepšení dispozice a prosvětlení hlavního obytného prostoru, příprava na budoucí mobiliář (knihovna u schodů)
+- Detail: Betonový stupínek v obývacím pokoji zůstává zachován a musí být po dokončené statické sondě znovu zakryt. Stávající dřevěné obložení stěny s topením (u TV) se zachovává a jen revitalizuje. Dřevěné schody do 2.NP zůstávají, jen se zabrousí a nalakují, s novým skleněným zábradlím
+- Dopad: Několik položek zůstává otevřených – materiál/vzhled odhalených trámů v jídelně, šířka vestavěné skříně v zádveří (závisí na uložení stropních nosníků) a rozsah úprav venkovního schodiště
+
+---
+
+### 2.NP / PODKROVÍ – CHODBA, PŮDNÍ VLEZ, BALKON
+- Datum: 2026-09-27
+- Rozhodnutí: Místnost 2.01 je v pasportu chybně označena jako "kuchyně" – ve skutečnosti jde o chodbu 2.NP. Podlaha v chodbě i ve všech obytných místnostech podkroví (mimo koupelnu) je potvrzena jako parketová. Otvor pro vlez na půdu se rozšíří souběžně s výměnou žebříku za skládací schody. Balkon se povrchově revitalizuje a vymění se zábradlí
+- Důvod: Oprava nepřesnosti v původním zaměření stávajícího stavu; nový vlez musí odpovídat rozměrům skládacích schodů
+- Detail: —
+- Dopad: Upřesňuje popisky místností v podkladu pro nacenění tak, aby odpovídaly realitě, ne jen zaměření
+
+---
+
+### SEZNAM ÚPRAV PRO NACENĚNÍ – NOVÝ DOKUMENT
+- Datum: 2026-09-27
+- Rozhodnutí: Vznikl podrobný seznam stavebních a řemeslných úprav po místnostech pro všechna tři podlaží (1.PP, 1.NP, 2.NP) jako podklad pro poptávku u stavebních firem
+- Důvod: Stavební firmy potřebují strukturovaný rozpad prací po místnostech pro nacenění
+- Detail: Dokument ve formátu Excel se 4 listy (Úvod, 1.PP, 1.NP, 2.NP), místnosti číslovány dle zaměření stávajícího stavu (pasport 04/2026, Ing. Radim Hladký), ne dle nové dispozice
+- Dopad: Otevřené body v dokumentu (trámy v jídelně, skříň v zádveří, venkovní schodiště, fasáda) je potřeba doladit před rozesláním stavebním firmám
+
+---
+
 ### PŘEKLAD MEZI KUCHYNÍ A JÍDELNOU (1.04/1.06)
 - Datum: 2026-09-05
 - Rozhodnutí: Otvor bude nesen překladem 2× IPE 180 na sloupcích 2× Jäkl 100×100×4, patní plech min. 160×300×6 mm
