@@ -2,6 +2,56 @@
 
 ---
 
+### CHYTRÁ DOMÁCNOST – FINÁLNÍ ZADÁNÍ PRO NACENĚNÍ
+
+* Datum: 2. 10. 2026
+* Rozhodnutí: Chytrá domácnost (Home Assistant + Shelly + Aqara) byla rozpracována do podoby zadání pro nacenění a stala se pátým listem v dokumentu se seznamem úprav pro stavební firmu
+* Důvod: Materiál a montáž chytré domácnosti má nacenit stejný elektrikář, který dělá kompletní rozvody – potřebuje konkrétní položkový seznam s počty kusů, ne jen interní poznámky
+* Detail: Zachována architektura bez Loxone (otevřený lokální systém, žádný vendor lock-in). Seznam je rozdělený podle umístění (základ systému, garáž+vjezd, prádelna, tepelné čerpadlo, obývák/jídelna/kuchyně, rolety, chodby/schodiště, koupelny, zabezpečení, doplňková doporučení). Ethernet (CAT6/RJ45) zásuvky nejsou v seznamu jako nová položka – jsou už součástí elektro dokumentace (legenda RJ45 na výkresech 1.NP a 2.NP), zde se jen ověřuje jejich pokrytí. Senzor pro automatické stahování rolet byl rozšířen o detekci větru, nejen deště/teploty – konkrétní model čidla je potřeba ještě vybrat
+* Dopad: Nahrazuje dosavadní interní rozpočtový dokument chytré domácnosti (z července 2026) jako primární podklad pro poptávku u elektrikáře
+
+---
+
+### ROLETY/ŽALUZIE – ROZŠÍŘENO NA PODKROVÍ
+
+* Datum: 2. 10. 2026
+* Rozhodnutí: Motorizované ovládání rolet (Shelly 2PM) se instaluje nejen v 1.NP (kuchyň/terasa, obývák, jídelna), ale i v podkroví (ložnice rodičů, dětský pokoj, pracovna) – celkem 6 jednotek místo původních 3
+* Důvod: Rolety na oknech jsou požadovány v celém domě, ne jen v přízemí
+* Detail: Počet kusů pro podkroví je zatím orientační – je potřeba ověřit skutečný počet a typ motorizovaných rolet/žaluzií u jednotlivých místností
+* Dopad: Zvyšuje rozpočet chytré domácnosti o cca 3 000 Kč oproti původnímu odhadu
+
+---
+
+### POHYBOVÉ SENZORY A AMBIENTNÍ OSVĚTLENÍ – JEN CHODBY A SCHODIŠTĚ
+
+* Datum: 2. 10. 2026
+* Rozhodnutí: Pohybové senzory Aqara se instalují pouze v chodbách a na schodišti ve všech podlažích (ne v koupelnách ani v jednotlivých místnostech). V chodbách a na schodišti navíc přibývá nízko umístěné ambientní LED osvětlení v úrovni nohou, spínané pohybovým senzorem jako noční orientační osvětlení
+* Důvod: V jednotlivých místnostech (ložnice, pokoje, obývák, koupelny) senzory pohybu nejsou potřeba, stačí klasické spínání světla přes Shelly relé
+* Detail: Ambientní osvětlení vyžaduje přívod kabeláže v úrovni podlahy/soklu – nutno koordinovat s elektrikářem při hrubých rozvodech, konkrétní svítidla zatím nejsou vybraná
+* Dopad: Z koupelen byly odebrány 2 ks pohybových senzorů, přidána nová položka s otevřenou cenou (ambientní osvětlení, cena dle výběru svítidel)
+
+---
+
+### KONTAKTNÍ SENZORY NA VŠECHNA OKNA A DVEŘE
+
+* Datum: 2. 10. 2026
+* Rozhodnutí: Kontaktní senzory okno/dveře se instalují na všechna okna a dveře v domě, ne jen na vybraných 6 kusů jako v původním rozpočtu
+* Důvod: Investor chce zabezpečení pokrývající celý objekt
+* Detail: Přesný počet kusů bude odvozen z finálního seznamu oken a dveří ve všech podlažích – půjde o podstatně více než původních 6 ks
+* Dopad: Výrazně zvyšuje položku zabezpečení v rozpočtu chytré domácnosti, přesná částka zatím není určena
+
+---
+
+### CHYTRÝ ZÁMEK NA VCHODOVÉ DVEŘE – ZAMÍTNUTO
+
+* Datum: 2. 10. 2026
+* Rozhodnutí: Chytrý zámek na vchodové dveře (Nuki nebo obdoba) se nebude instalovat
+* Důvod: Investor se rozhodl tuto položku z rozsahu vyřadit
+* Detail: —
+* Dopad: Snižuje rozpočet chytré domácnosti o cca 4 500 Kč, odpadá nutnost řešit kompatibilitu zámku s eurocylindrem nových vchodových dveří
+
+---
+
 ### VÝMĚNA OKEN A DVEŘÍ VE VŠECH MÍSTNOSTECH
 - Datum: 2026-09-27
 - Rozhodnutí: Okna a dveře se vymění ve všech místnostech domu, kde se vyskytují – napříč 1.PP, 1.NP i podkrovím
